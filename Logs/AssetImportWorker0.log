@@ -1,0 +1,423 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.6f1 (0b051c2e5d54) revision 722204'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490" at "2026-07-21T16:40:31.4772807Z"
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 32212 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-21T16:40:31Z
+
+COMMAND LINE ARGUMENTS:
+D:\unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Yin
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+9757
+-licensingIpc
+LicenseClient-15490
+-force-d3d12
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Yin
+D:/Yin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [29492]  Target information:
+
+Player connection [29492]  * "[IP] 192.168.1.238 [Port] 0 [Flags] 2 [Guid] 2057459832 [EditorId] 2057459832 [Version] 1048832 [Id] WindowsEditor(7,9daY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29492] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29492] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Initialize engine version: 6000.4.6f1 (0b051c2e5d54)
+[Subsystems] Discovering subsystems at path D:/unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Yin/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Laptop GPU (ID=0x2d58)
+    Vendor:          NVIDIA
+    VRAM:            7891 MB
+    App VRAM Budget: 7123 MB
+    Driver:          32.0.15.9608
+Initialize mono
+Mono path[0] = 'D:/unity/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001204 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.629 seconds
+Domain Reload Profiling: 1318ms
+	BeginReloadAssembly (156ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (155ms)
+		AnalyzeDomain (366ms)
+			TypeCache.Refresh (365ms)
+				TypeCache.ScanAssembly (337ms)
+	FinalizeReload (632ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-15490"
+[Licensing::IpcConnector] LicenseClient-15490 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490-6000.4.6" at "2026-07-21T16:40:33.7684386Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 10424, path: "D:/unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              c470f9c1dda14782808f409f9b479ac2
+  Correlation Id:          ccc52dbf0592381b2610f458167e7763
+  External correlation Id: 7638774474588623077
+  Machine Id:              DJWBFtPZt+einrVuex0hynKXsRc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-15490-6000.4.6" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490-6000.4.6-notifications" at "2026-07-21T16:40:33.7892242Z"
+[Licensing::Module] Licensing Background thread has ended after 2.31s
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5773964460127-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.018 seconds
+Domain Reload Profiling: 2346ms
+	BeginReloadAssembly (328ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (171ms)
+	LoadAllAssembliesAndSetupDomain (747ms)
+		LoadAssemblies (596ms)
+		AnalyzeDomain (372ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (248ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1018ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (519ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6536 unused Assets / (6.1 MB). Loaded Objects now: 7343.
+Memory consumption went from 156.0 MB to 149.9 MB.
+Total: 11.052200 ms (FindLiveObjects: 1.082800 ms CreateObjectMapping: 0.841200 ms MarkObjects: 5.640600 ms  DeleteObjects: 3.483900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 87974.190524 seconds.
+  path: Assets/materials/Materials/Meshy_AI_Ritual_bronze_ding_0703085930_texture.mat
+  importAddress: Guid(a23482e57400b3441b5fd5bed59888b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Materials/Meshy_AI_Ritual_bronze_ding_0703085930_texture.mat using Guid(a23482e57400b3441b5fd5bed59888b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eb07a4477d461e2ca2c91f4368f166b9') in 0.1069695 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18f1443a240672fdee699587ef0475b5 DependenciesID=93b5bb9e1b451f15c2a9250751c87ce4 StaticDependenciesID=e73eadb33f484b214aa145396175ed49 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/materials/Stylized Ground Textures/Assets/Materials/Sand_3.mat
+  importAddress: Guid(99fce07f2ada2be4a83389c8cf91fd00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Stylized Ground Textures/Assets/Materials/Sand_3.mat using Guid(99fce07f2ada2be4a83389c8cf91fd00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '33713950e64780b79ab334029d7ec528') in 0.0157044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5363c8cc1933263416772e5c69d75a60 DependenciesID=e564904b3b6bb9fe652d972648d4f106 StaticDependenciesID=198a13949fca1c37705912d343855018 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/materials/Stylized Ground Textures/Assets/Textures/Mud_1/Mud_1_Height.png
+  importAddress: Guid(860c40e48703fc24d8c0952c471d0c0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Stylized Ground Textures/Assets/Textures/Mud_1/Mud_1_Height.png using Guid(860c40e48703fc24d8c0952c471d0c0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1b8953a6f5735aa01f458d74deedf52d') in 0.0498163 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15d3acea937506fb00537e2aae3c83d3 DependenciesID=5f4cebe9f1cfc8356594081472c2572f StaticDependenciesID=8d690ebd8ba24d0798e73de01303a0ad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/materials/Materials/Meshy_AI_Ritual_bronze_ding_0703085930_texture_roughness.mat
+  importAddress: Guid(c7a984a3b08898d4c8b96695468c245f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Materials/Meshy_AI_Ritual_bronze_ding_0703085930_texture_roughness.mat using Guid(c7a984a3b08898d4c8b96695468c245f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0ed9d44c23480271e2bd23f62199d176') in 0.0085857 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7717a25c24c8a055a2f4ff80d67d78eb DependenciesID=c21affc8ac02ae550a9597acac0a3b38 StaticDependenciesID=334f6dab763a8f0804da0c9d21bb0198 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/materials/Stylized Ground Textures/Assets/Textures/Sand_2/Sand_2_Height.png
+  importAddress: Guid(cf570262c8faa6d4390f350567e47576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Stylized Ground Textures/Assets/Textures/Sand_2/Sand_2_Height.png using Guid(cf570262c8faa6d4390f350567e47576) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b33b02c888e3d0e6d7d717a6dd3583b4') in 0.0083224 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8734a9f0d8931ca451cda337fb7517c9 DependenciesID=0bb6fff6e5e3cbb1c2afc7c94e06469f StaticDependenciesID=5d11eb8dcf868fa7f3c147d88dbed298 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/materials/Stylized Ground Textures/Assets/Textures/Sand_2/Sand_2_AlbedoSmoothness.png
+  importAddress: Guid(7a4ca84bc2dea6e47a90282403c64db7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Stylized Ground Textures/Assets/Textures/Sand_2/Sand_2_AlbedoSmoothness.png using Guid(7a4ca84bc2dea6e47a90282403c64db7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7eab6e6ce29da704679408717fa5dfe7') in 0.0129212 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83deb721da240147c16a5fb14312525f DependenciesID=5b3829d19dcc37a29bcccbf8e54bb431 StaticDependenciesID=261b142dfe8b60d4d77608d8c88b6e59 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes
+  importAddress: Guid(560691e76757fc041937d6a7b564d046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(560691e76757fc041937d6a7b564d046) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c85111bc889c9a89147dccad6ce12f17') in 0.000576 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d10d60020e211b0fdd0842c16837b82b DependenciesID=ff8fcd9de6815c7fb03ccb1684643927 StaticDependenciesID=640bee985e6d2a8ccd45643cdc6bf67d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  importAddress: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f9613f0307d8721faf087940a1b76808') in 0.1878109 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46bfea76b0b4a43fd03beae5c13ee58c DependenciesID=530cc9795b5e9263662dbe44b82568bd StaticDependenciesID=eb26e2ecbe2efdd6eac80a90f382bbdb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Materials/Mat3d66_15132010_7_24668.mat
+  importAddress: Guid(eaf0ef5ed8143cb488ddd89924dc14bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Materials/Mat3d66_15132010_7_24668.mat using Guid(eaf0ef5ed8143cb488ddd89924dc14bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '703ee1033f915d705b08875959c0cab4') in 0.0091233 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4f9de6a3829fbfade6420245eb600a4 DependenciesID=7d6b03c777058cede5c8df67cc2a0ea1 StaticDependenciesID=3f0fa480b83127d63e8c293d9031e526 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Mat3d66_15132010_5_38916.jpg
+  importAddress: Guid(9ca1c962a3b60d94199206fedf300c51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Mat3d66_15132010_5_38916.jpg using Guid(9ca1c962a3b60d94199206fedf300c51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7cae49b04c1fd1a05cd5bd6d5509a49e') in 0.0071104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=277f7cff4d077eb393cbb65e3aa748df DependenciesID=44fe6f482e6ae46833530945ee562a63 StaticDependenciesID=2cfcfbed41d7ef43dd9f43f5b63b03e3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/materials/Stylized Ground Textures/Assets/Textures/Mud_1/Mud_1_MetallicSmoothness.png
+  importAddress: Guid(1e0f7eda4746e9d428e0d50c0d86395a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Stylized Ground Textures/Assets/Textures/Mud_1/Mud_1_MetallicSmoothness.png using Guid(1e0f7eda4746e9d428e0d50c0d86395a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '742e2301c6be06206a72050500208233') in 0.0089017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67661383ce46fe088adf29b41798ade2 DependenciesID=7af226104d81e7bd344f8acee11071b8 StaticDependenciesID=56adfe4f64d9f37bb100f37c63469dab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Mat3d66_15132010_7_24668.jpg
+  importAddress: Guid(dc449fb52f589334cab966cdede3e367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Mat3d66_15132010_7_24668.jpg using Guid(dc449fb52f589334cab966cdede3e367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6ded593af2d9f633da3adf7af9ac3d6e') in 0.0073545 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50cc64654c10fa412c2bcf6c58deccea DependenciesID=8727cfae6ec6f1b236d1545aba744282 StaticDependenciesID=a6726c9013b50fa146d4bddc46d914ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/materials/Stylized Ground Textures/Assets/Textures/Sand_2/Sand_2_MetallicSmoothness.png
+  importAddress: Guid(c4353dba1f8dddc419ff1356475a1c35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Stylized Ground Textures/Assets/Textures/Sand_2/Sand_2_MetallicSmoothness.png using Guid(c4353dba1f8dddc419ff1356475a1c35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aa43c73ae32f1483d7c5bc52e45a0d0c') in 0.0087756 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4718c29ef026cb12146f05b5c85da72 DependenciesID=ce947768d4448f58f1d837ef547d2b02 StaticDependenciesID=f9edc030576765a8cd3b061f1b3794bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/materials/Stylized Ground Textures/Assets/Textures/Sand_3/Sand_3_Normal.png
+  importAddress: Guid(672791e86e1038a42bf1cfe34b3c66c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Stylized Ground Textures/Assets/Textures/Sand_3/Sand_3_Normal.png using Guid(672791e86e1038a42bf1cfe34b3c66c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cfe8887d173e2c4129690d664499c69e') in 0.0097015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0f99162bb1c3bb5bc16b744e31bc2d7 DependenciesID=60fe802d60e3cf334924df40315d8efc StaticDependenciesID=2df0df425013d64536049d86461445fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/materials/Meshy_AI_Ritual_bronze_ding_0703085930_texture.png
+  importAddress: Guid(e30c6509678b7a9499116cbf3a36fd7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Meshy_AI_Ritual_bronze_ding_0703085930_texture.png using Guid(e30c6509678b7a9499116cbf3a36fd7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9dc2b960b792a9301f99c31efde038a0') in 0.0095312 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=674fbdc797d659fc9b2a89da6749efe2 DependenciesID=2036a8ec8af3fbc27a92c82eba8ecbc9 StaticDependenciesID=820e786028c7e79b37d5d0d27d81c266 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/materials/rock_moss_set_02_diff_4k.jpg
+  importAddress: Guid(f42b6dd3d4e36fc4bbefbc7e9bcc3b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/rock_moss_set_02_diff_4k.jpg using Guid(f42b6dd3d4e36fc4bbefbc7e9bcc3b48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d5a342af0d4dd11b47f4c252b12392c') in 0.0085172 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dfd098ad5857a64b3417c2f08fa856a5 DependenciesID=5e90f8bfbf6dab7a3c39b3c91ca24188 StaticDependenciesID=dd5961145c524137516c6e6aab6380fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Materials/Mat3d66_15132010_12_39459.mat
+  importAddress: Guid(66e3d3c3f872d66489b3ceddf2e3a6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Materials/Mat3d66_15132010_12_39459.mat using Guid(66e3d3c3f872d66489b3ceddf2e3a6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0efd1854c5a3eecee0041f6826eb3d24') in 0.0074237 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12d2d6f28939c5e89e24db7d0db85a4a DependenciesID=19df5913bdc400db95fa4f3113d7faa8 StaticDependenciesID=2c9937942e22ce0150ed31e6dd914d0c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Mat3d66_15132010_10_47782.jpg
+  importAddress: Guid(d0e2911b88306874b91d213427d82df4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Mat3d66_15132010_10_47782.jpg using Guid(d0e2911b88306874b91d213427d82df4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f7748944c7485e33e5efb55d7ae48e67') in 0.008448 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b502915413b4e091a6b9eedc2fc2fcac DependenciesID=1d7657c1aad7e3bb59bf2de8e90d0dac StaticDependenciesID=e77eea3ec0623a980a41edb46810d1e4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  importAddress: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ae555a03949412efef5b0490ab19dbb7') in 0.0031525 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac7f067eb27ff7fb85f25ecb73fd18a0 DependenciesID=99d209a03cc4767570dbb872f61b489f StaticDependenciesID=aa0f53e3710884a6e1003d6f87876b3b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  importAddress: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c49072b01f18f3304d166dadf3959a6f') in 0.0778928 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=313ed929a0b3e9477ea168890fc335e9 DependenciesID=67dfdaa7b65b26a5f574ef757be068c9 StaticDependenciesID=a0755c6a99167fecd974bbb7c54cf114 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/materials/Stylized Ground Textures/Assets/Textures/Mud_1/Mud_1_Normal.png
+  importAddress: Guid(b95db752bf3825741a3e4e30cdee2713) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Stylized Ground Textures/Assets/Textures/Mud_1/Mud_1_Normal.png using Guid(b95db752bf3825741a3e4e30cdee2713) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e389f85204432d5b19d10471a5a3d666') in 0.0098551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f01d1850f2513adcda7323f5464eab17 DependenciesID=58361e1b6915518784a53246436b54b8 StaticDependenciesID=1cbac61ae2cbd850297dd1fe30c19ba1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  importAddress: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e7b05d6aafe9a5a7b31d32c42e6c54a3') in 0.0222864 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4424046b1176df39b9eef5f0e46dfe4e DependenciesID=970e23510c1e8e7565d2548b2089f504 StaticDependenciesID=e0cc62039e784e2aee8afc50d794f992 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  importAddress: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cce8f7b66956b209becd22c0b3d91a8b') in 0.0483596 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6088cd91eadab36095d6f85e160b3e6b DependenciesID=e21686778c721a3d632b31b613e3fcc2 StaticDependenciesID=3eb487d17b2044a913dc16888cfcd492 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Mat3d66_15132010_11_43945.jpg
+  importAddress: Guid(607db9a0789c42a458da9007d1515a9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Materials/S823/现代甲骨文_乌龟壳_象形文_占卜龟壳SU模型/tex/Mat3d66_15132010_11_43945.jpg using Guid(607db9a0789c42a458da9007d1515a9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '28f97f3b18d1a593d4866ff6893cb165') in 0.0087721 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ee6fd492522077c5ea70889f1984f58 DependenciesID=e706f01f7c003012a4d3aa12d15d1cfb StaticDependenciesID=1a286c44fdb3491afc1dacc854bdfbcf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

@@ -1,0 +1,1584 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.6f1 (0b051c2e5d54) revision 722204'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490" at "2026-07-22T23:51:43.719632Z"
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 32212 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-22T23:51:43Z
+
+COMMAND LINE ARGUMENTS:
+D:\unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Yin
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+13763
+-licensingIpc
+LicenseClient-15490
+-force-d3d12
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Yin
+D:/Yin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [16096]  Target information:
+
+Player connection [16096]  * "[IP] 192.168.1.238 [Port] 0 [Flags] 2 [Guid] 2298107479 [EditorId] 2298107479 [Version] 1048832 [Id] WindowsEditor(7,9daY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16096] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16096] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 22.36 ms, found 10 plugins.
+Initialize engine version: 6000.4.6f1 (0b051c2e5d54)
+[Subsystems] Discovering subsystems at path D:/unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Yin/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Laptop GPU (ID=0x2d58)
+    Vendor:          NVIDIA
+    VRAM:            7891 MB
+    App VRAM Budget: 7123 MB
+    Driver:          32.0.15.9608
+Initialize mono
+Mono path[0] = 'D:/unity/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001234 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-15490"
+[Licensing::IpcConnector] LicenseClient-15490 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490-6000.4.6" at "2026-07-22T23:51:45.8859881Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 28168, path: "D:/unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              b1722049a10d4540a3014a0643768908
+  Correlation Id:          cc86ad7c27645200ef8ddc21870b1b3b
+  External correlation Id: 1631906879945166195
+  Machine Id:              DJWBFtPZt+einrVuex0hynKXsRc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-15490-6000.4.6" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490-6000.4.6-notifications" at "2026-07-22T23:51:45.8965992Z"
+[Licensing::Module] Licensing Background thread has ended after 2.18s
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.410 seconds
+Domain Reload Profiling: 1046ms
+	BeginReloadAssembly (223ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (222ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (232ms)
+	FinalizeReload (411ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5773964460127-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 9.68 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 8.76 ms, found 10 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.257 seconds
+Domain Reload Profiling: 2262ms
+	BeginReloadAssembly (257ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (602ms)
+		LoadAssemblies (484ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (182ms)
+			BuildScriptInfoCaches (55ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1258ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (594ms)
+			ProcessInitializeOnLoadMethodAttributes (190ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 10.31 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7664 unused Assets / (6.1 MB). Loaded Objects now: 8470.
+Memory consumption went from 169.1 MB to 162.9 MB.
+Total: 12.986100 ms (FindLiveObjects: 1.186200 ms CreateObjectMapping: 1.226100 ms MarkObjects: 6.337500 ms  DeleteObjects: 4.232500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29306.934303 seconds.
+  path: Assets/TripoModels/ancient_statue_3d_model_4/ancient_statue_3d_model_4.fbm/ancient_statue_3d_model_metallic_Smoothness.png
+  importAddress: Guid(052b32deb92dbf04ea0841c30623d6e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TripoModels/ancient_statue_3d_model_4/ancient_statue_3d_model_4.fbm/ancient_statue_3d_model_metallic_Smoothness.png using Guid(052b32deb92dbf04ea0841c30623d6e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1e7954d72ad3560bbe1b70431f44102f') in 0.1142898 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=391824e0b096a8e7a75cfef8d4ba01c2 DependenciesID=cddf540218fa67d7e959605c3cc27b61 StaticDependenciesID=42f8c0ac353e6102863dc1c079f3945e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ian's Fire Pack Universal/Textures/EmberPileNormal.png
+  importAddress: Guid(0488a3b36caae4a03be44b7fb65173b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Ian's Fire Pack Universal/Textures/EmberPileNormal.png using Guid(0488a3b36caae4a03be44b7fb65173b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1d1fb9cf72e391f6b25bc8d7b9f93a6c') in 0.0098958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec6a4b8fc1a4a6439caafe96463dd129 DependenciesID=29ce07754c5e31652a6c0f2355531634 StaticDependenciesID=23a3267b4f57e4a5a176843cc7612a51 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/Sand_2/Sand_2_MetallicSmoothness.png
+  importAddress: Guid(c4353dba1f8dddc419ff1356475a1c35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/Sand_2/Sand_2_MetallicSmoothness.png using Guid(c4353dba1f8dddc419ff1356475a1c35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '771121c30ca82bea2b053abcdbfec362') in 0.0111674 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a4fea5f004f591debefb38792298f84 DependenciesID=90eaae1f8e41e9415189c7d57d8fa1d3 StaticDependenciesID=f9edc030576765a8cd3b061f1b3794bb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Materials/CandleFlame.mat
+  importAddress: Guid(1abdf150dd2eda341a64b39fa5b50791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Materials/CandleFlame.mat using Guid(1abdf150dd2eda341a64b39fa5b50791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'be07125a6d480754b8c365a06ef0707b') in 0.0267236 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cee122dbfbc0eeb6e1d5393be1a3f5a2 DependenciesID=6bb9bd06bc19731406ab766c580e0e18 StaticDependenciesID=d68d22738a1dce5652ee31aeec77e9fe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TripoModels/ancient_chinese_statue_3d_model/ancient_chinese_statue_3d_model.fbx
+  importAddress: Guid(182f809cf45a03a419621e108d482d4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TripoModels/ancient_chinese_statue_3d_model/ancient_chinese_statue_3d_model.fbx using Guid(182f809cf45a03a419621e108d482d4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/TripoModels/ancient_chinese_statue_3d_model/ancient_chinese_statue_3d_model.fbx)
+ -> (Import Result ID: 'b86fc4dc91c71cb2e39bfb923fc9e292') in 0.0694836 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d21535d321d793509ded45963ac3cb9 DependenciesID=2c1228c0e2262517bdaf271d80a80faf StaticDependenciesID=45ee3bc619e2a3f27acd08acb6eddcf5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TripoModels/ancient_chinese_statue_3d_model_1/ancient_chinese_statue_3d_model_1.fbx
+  importAddress: Guid(59e18f568826f1249bdef886018fe19b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TripoModels/ancient_chinese_statue_3d_model_1/ancient_chinese_statue_3d_model_1.fbx using Guid(59e18f568826f1249bdef886018fe19b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/TripoModels/ancient_chinese_statue_3d_model_1/ancient_chinese_statue_3d_model_1.fbx)
+ -> (Import Result ID: '7c1abbd925f32b5a4b12c84abd7ce756') in 0.012573 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=503a69954bc4e21ad6e9c1a40a70a5ae DependenciesID=1d0462fbef1a3509d9e75173023e3570 StaticDependenciesID=17619603776c3ac0ec08633fb1dd6675 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/CandleFlame.png
+  importAddress: Guid(41d49f59f1ba9c84e9bef0c969d66432) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/CandleFlame.png using Guid(41d49f59f1ba9c84e9bef0c969d66432) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7242f0331626ff7a66440501035b1df6') in 0.0245868 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=753a3684fa1ab3204fe8a351c6a3dd35 DependenciesID=8c7cb2fa2c16632452303111e16236dd StaticDependenciesID=7c640450c3fda8b60fe584dc23598e37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/XR/Animated Hands/Materials/Hands_solid.mat
+  importAddress: Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/XR/Animated Hands/Materials/Hands_solid.mat using Guid(3637b758ff163493f8bb8b6d7e96d7ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '53e0fef855213c8117dd3d171968a054') in 0.0107183 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec36bc74d460217b5f7c84acdb6094d3 DependenciesID=9f6c5927b7df3dfb94febe8e4a3967e7 StaticDependenciesID=0aa042da03cf91950b66f63302a8b947 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/XR/Animated Hands/Animations/l_hand_default_anim.fbx
+  importAddress: Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/XR/Animated Hands/Animations/l_hand_default_anim.fbx using Guid(1ae9aefe37a62de429ddc2edd1ca36f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2241b6719a61808a86148c9c37ac57d6') in 0.0278993 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd1cc9ad4adf76e0c126ef1501dd1551 DependenciesID=84d7a07824f95715a5b2ca7f12324b23 StaticDependenciesID=8fa6fc904954ab6f3ea8d5f68944a2fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/XR/Animated Hands/Animations/r_hand_default_anim.fbx
+  importAddress: Guid(b6c38558987444240b3b3950e4450b77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/XR/Animated Hands/Animations/r_hand_default_anim.fbx using Guid(b6c38558987444240b3b3950e4450b77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '309e5d34c39d20e68d303379505a883e') in 0.0096653 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8d81c49c1fec93ed05aa84b5a39fa4f DependenciesID=915dd54858b3d1910df877daad2165c7 StaticDependenciesID=afb8fd2a21aeb97b1b96674d3a0685f4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Materials/CavePieces/CaveStone_01.mat
+  importAddress: Guid(59300968b154181408da009f473c05f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Materials/CavePieces/CaveStone_01.mat using Guid(59300968b154181408da009f473c05f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2eeb7845ea18a5cae214a327fec5e7ab') in 0.087026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=acaf8e761e799332cab2169e33a89d1e DependenciesID=7fe147c4fdb0712efe4e0abf612ffe95 StaticDependenciesID=7c02c2d82798f4566d22a02530a8f9b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/XRI Default Input Actions.inputactions
+  importAddress: Guid(c348712bda248c246b8c49b3db54643f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/XRI Default Input Actions.inputactions using Guid(c348712bda248c246b8c49b3db54643f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f80bea4541bec2ecbf48e3b7cd8bd9ee') in 0.2422558 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=edc20a724c80e3d499846e69015c22fe DependenciesID=22792d921440bca37df11037d9f0934f StaticDependenciesID=4baba7b372616f4764f8fef819fb17ac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 95
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TripoModels/bodhisattva_statue_3d_model_1/bodhisattva_statue_3d_model_1.fbx
+  importAddress: Guid(05b8e38a638197c4aa1e578eb5dddf49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TripoModels/bodhisattva_statue_3d_model_1/bodhisattva_statue_3d_model_1.fbx using Guid(05b8e38a638197c4aa1e578eb5dddf49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c1ab7752884e9bb22dde84640feeb985') in 0.0237144 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e18af4cee9b047a93efe7a83d6e7f4ac DependenciesID=421b4470f997d132f7da14606c8e43c5 StaticDependenciesID=730b688f55948fa6c212a35be392d2d9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  importAddress: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '339f7ec77ec172cd7c4b08748dcf22d0') in 0.0743056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de6f0a4ab85603fe137cc5001f8be581 DependenciesID=cacf3e64ae9032bc2217f980776143b9 StaticDependenciesID=9c754e4c3f3621016d413ff0d5df2c2a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Prefabs/Vines/Vine_01.prefab
+  importAddress: Guid(ccfa6224f822ced4a892ac4cd559fe43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Prefabs/Vines/Vine_01.prefab using Guid(ccfa6224f822ced4a892ac4cd559fe43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '06347b9b744d773c1270487c812870c5') in 0.0099953 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=120eb1c1deb7d40dbe877b867c5c591a DependenciesID=b7017ad2a38182e1085c06247d12d140 StaticDependenciesID=caca96c6b588eed037427c5ca316d00b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Prefabs/Mushrooms/Mushroom07_Red.prefab
+  importAddress: Guid(b0b4f348c2edc214db68c096b4876e46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Prefabs/Mushrooms/Mushroom07_Red.prefab using Guid(b0b4f348c2edc214db68c096b4876e46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8c387edb261854152ac37a797a1c2141') in 0.0084053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a99e440cd9d0825bab318f2e481f8bd7 DependenciesID=260fa15938492541aee2f7cbe7295554 StaticDependenciesID=d1d4d539c8592a4efa48f11174757a98 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Scenes/CaveDemoScene02/Lightmap-0_comp_light.exr
+  importAddress: Guid(5e339e9797cc9d04abc849a06ea0783f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Scenes/CaveDemoScene02/Lightmap-0_comp_light.exr using Guid(5e339e9797cc9d04abc849a06ea0783f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1a1d90606bdebaa68da2b4410142b981') in 0.0127437 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9830337084b771176f382df141816d4 DependenciesID=71da8651e31310ba48a6812ec097b14a StaticDependenciesID=e664d90f7b39fa67cf1d772416ed85be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Prefabs/Rocks/SmallStone_03.prefab
+  importAddress: Guid(698db9d5875d0b4419f6978609ddfdad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Prefabs/Rocks/SmallStone_03.prefab using Guid(698db9d5875d0b4419f6978609ddfdad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '23a43d5117065ac02c2c197cfe662478') in 0.0120474 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50f302591f61b84596ebc79ca99527d6 DependenciesID=290ecdba109f6d5a94077d7d6df37fe4 StaticDependenciesID=d820f6537838408b0533c76642e5de15 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Prefabs/Various/ClayPot02.prefab
+  importAddress: Guid(6b1cc2ed421cfa545afcb2e6442e131e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Prefabs/Various/ClayPot02.prefab using Guid(6b1cc2ed421cfa545afcb2e6442e131e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '46c03fa04e3ae7aa2ea862a1769ff261') in 0.0078403 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=356b5bb92469f532ca4586c92ab73ba2 DependenciesID=5656c8b8719d3bf7653a65587bfcba31 StaticDependenciesID=756561d76d038109e0ce7dbb29d39da2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Prefabs/Roots/RootSmall_04.prefab
+  importAddress: Guid(cfa06a69de05ae0448ae3685b76aa189) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Prefabs/Roots/RootSmall_04.prefab using Guid(cfa06a69de05ae0448ae3685b76aa189) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a8857cd6e8cb0d194c307a166d3b9600') in 0.0082957 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c86e3f8326da764e5ffe6db46b2c771 DependenciesID=4400bdd97ac467f7ad66ae07b981b226 StaticDependenciesID=4cf98a2fdca4cefa90fabf2730fde6c6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Scenes/CaveDemoScene02/ReflectionProbe-2.exr
+  importAddress: Guid(d01e756aa8e8f924cbc402046522abb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Scenes/CaveDemoScene02/ReflectionProbe-2.exr using Guid(d01e756aa8e8f924cbc402046522abb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '692e52aafb47de78053d8c55df9082e0') in 0.0164694 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22afe8ee8d8f3d595af1d29412121e64 DependenciesID=5a4469b7968e809fb57de73b152bd1fc StaticDependenciesID=616014bcd184cb6edd647a63f4c970b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Prefabs/Various/Cobweb03.prefab
+  importAddress: Guid(a0200d194f90cc34d98b147bed24af73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Prefabs/Various/Cobweb03.prefab using Guid(a0200d194f90cc34d98b147bed24af73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dde8cc7d6d9de7ff4aea23873834d614') in 0.0104161 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95fe3138278b9ea6878dfc27d62f2434 DependenciesID=d48de67575a387cda55e8a3d52e85601 StaticDependenciesID=d28a86499ffa66ee66fdaabbcddca270 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TripoModels/chinese_scholar_statue_3d_model/Materials/chinese_scholar_statue_3d_model_basecolor.mat
+  importAddress: Guid(9c1d6149bf802624b9e5781248daba6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TripoModels/chinese_scholar_statue_3d_model/Materials/chinese_scholar_statue_3d_model_basecolor.mat using Guid(9c1d6149bf802624b9e5781248daba6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aaa2575782a049e9349229177b2004d6') in 0.0230182 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1279e3d2602c70c060164fbb60db8b58 DependenciesID=038f153035cad3db2b7c2a84ba2439ca StaticDependenciesID=0f623ec3ddd75dde63a502b6adc29ff6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Scenes/CaveDemoScene02/ReflectionProbe-4.exr
+  importAddress: Guid(fa095b3dbe9926e48a4829489eb04ac5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Scenes/CaveDemoScene02/ReflectionProbe-4.exr using Guid(fa095b3dbe9926e48a4829489eb04ac5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b0f7630fd91615edb19d78e576140053') in 0.0072839 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d5625e169c5db779f9765b9ae79f7fc DependenciesID=a657bdd231dacd1ffa4db320a562820c StaticDependenciesID=fa8f3d7211bb0b4d9897320c58cd9981 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TripoModels/ancient_statue_3d_model_5/ancient_statue_3d_model_5.fbm/ancient_statue_3d_model_basecolor.JPEG
+  importAddress: Guid(784c54fb1afdb2d448526f3e924c1c0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TripoModels/ancient_statue_3d_model_5/ancient_statue_3d_model_5.fbm/ancient_statue_3d_model_basecolor.JPEG using Guid(784c54fb1afdb2d448526f3e924c1c0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '156984760c02b57127278d223b5a4fc2') in 0.0080596 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=773a14108c86d609f017ed4d743573ac DependenciesID=6f54aa6881a67c679a0889a5a30daa24 StaticDependenciesID=b5b4faefeb2adb8ce2ee156bbc9b1ff2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TripoModels/ancient_chinese_statue_3d_model_4/ancient_chinese_statue_3d_model_4.fbm/ancient_chinese_statue_3d_model_basecolor.JPEG
+  importAddress: Guid(8be8194373f72a443a703060aaf83349) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TripoModels/ancient_chinese_statue_3d_model_4/ancient_chinese_statue_3d_model_4.fbm/ancient_chinese_statue_3d_model_basecolor.JPEG using Guid(8be8194373f72a443a703060aaf83349) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1a773d41c40c8443798aa06ed15a26c6') in 0.0134193 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ed1a075c37153120563def8d658ef00 DependenciesID=c9d48e8d5daa4abdf8b93ea4933c2ca8 StaticDependenciesID=f18090b8aae0d4f4cf24afd029988ba0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Mat3d66_15132010_4_32655.jpg
+  importAddress: Guid(7a45c2afdbd03d045848ea9bb2738957) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/Mat3d66_15132010_4_32655.jpg using Guid(7a45c2afdbd03d045848ea9bb2738957) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5ca5f0c4df10a7d40c5157c5a8225e6b') in 0.0095669 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07f84951f2b5296adbbea91336fe3760 DependenciesID=b6825b5c59e85cebee0898dcd394bfae StaticDependenciesID=ad31c8c9b098c48ea1384f3185b641fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/MediumChamber_01/MediumChamber_01_Paint_MediumChamber_01_AlbedoTransparency.png
+  importAddress: Guid(affe1f076765eef4486d71ae33ba6d95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/MediumChamber_01/MediumChamber_01_Paint_MediumChamber_01_AlbedoTransparency.png using Guid(affe1f076765eef4486d71ae33ba6d95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3661236e8c28ef96bfd8f82df202d8bd') in 0.0163835 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a0075860f409eef4ac2862918ca4597 DependenciesID=3659b0d7972c74310f14282316428366 StaticDependenciesID=5a4567f3484289e62a19c2c4615ccc7a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/DungeonProps02/DungeonProps02_Diffuse.png
+  importAddress: Guid(602195098c5c270498cc7401ca8ef312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/DungeonProps02/DungeonProps02_Diffuse.png using Guid(602195098c5c270498cc7401ca8ef312) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6925f45809bd185502a8843591b9b9ac') in 0.0132733 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e2274a8eeae6fdc66b1c94066f42a79 DependenciesID=aeec62fab23278a5a4f2556664e9f1a5 StaticDependenciesID=d4da477eb96d6c92e7fe8f139929a59d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/DripStone_01/Stones_01_Paint_DripStone_01_SpecularSmoothness.png
+  importAddress: Guid(59b7595e4132c824e92efe90d4fdf1ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/DripStone_01/Stones_01_Paint_DripStone_01_SpecularSmoothness.png using Guid(59b7595e4132c824e92efe90d4fdf1ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '798167006ea7ef69c4eb0d9a234a1edc') in 0.0269367 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5ef6aa96055834ef2f565fbcb5c90e1 DependenciesID=e85c168712dbce012d5e3e8acf0464ae StaticDependenciesID=a08941e8c74ed985a4c7099dd02a63d9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/MediumChamber_02/MediumChamber_02_collider_MediumChamber_02_AlbedoTransparency.png
+  importAddress: Guid(d8eca47318f78d2499c8f1a0f54e7d35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/MediumChamber_02/MediumChamber_02_collider_MediumChamber_02_AlbedoTransparency.png using Guid(d8eca47318f78d2499c8f1a0f54e7d35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '55986ca8790438930d825a5b8ead6ad7') in 0.0139603 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5dc727b3bb57d472420801794af345c2 DependenciesID=c47a89d1bdebd7b60ba164f9604d575a StaticDependenciesID=db4e58947814ff66e5594a935daf91fc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/CaveStone_01/Stones_01_Paint_CaveStone_01_SpecularSmoothness.png
+  importAddress: Guid(3a09a46923b7a764590d3420e1258384) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/CaveStone_01/Stones_01_Paint_CaveStone_01_SpecularSmoothness.png using Guid(3a09a46923b7a764590d3420e1258384) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a5337681403b4d1b4a919f28fad88aca') in 0.0279308 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ae61360e8885254af0b5578e8ac9a88 DependenciesID=c8e4804e43cab321164fe69689cb765b StaticDependenciesID=5a23a34392bd9904790e6f5dec9a4a5a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/DungeonProps01/DungeonProps01_AO.png
+  importAddress: Guid(77b648bc5563f6a4abc44a160256df3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/DungeonProps01/DungeonProps01_AO.png using Guid(77b648bc5563f6a4abc44a160256df3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a43936dd9b3e785e67ff577ebcaedaf8') in 0.0352509 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3774f3b23179ce76c453133d25aa3b27 DependenciesID=770a7336c826dfd76778ce69f1d049ae StaticDependenciesID=3dca449a9a3e0be9e5dd94fb7b0b99a1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/SandMineRock/sand_mine_rock_rubble_Specular.png
+  importAddress: Guid(a2df74be3bdc0184eac7f85f07eb2a90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/SandMineRock/sand_mine_rock_rubble_Specular.png using Guid(a2df74be3bdc0184eac7f85f07eb2a90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '052a5df5c8e18bfc43c0cfb484c401b1') in 0.0315545 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28c1d276233abd174046601910f2e01d DependenciesID=8c934be9b63a6dd85d172644faf32bca StaticDependenciesID=8a8d1c58347f879819f23bddfa3e45b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/DungeonProps05/DungeonProps05_AlbedoTransparency.png
+  importAddress: Guid(9e2745270ca27c04db85498f64870739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/DungeonProps05/DungeonProps05_AlbedoTransparency.png using Guid(9e2745270ca27c04db85498f64870739) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ab937f72dc377f9ad05306a7217b7a6d') in 0.0128664 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=824521b9bc87faba8922c521bc9e124b DependenciesID=c05ff5f86f7dadafba4ff77530008309 StaticDependenciesID=d7170e6d9176d15063b26aa6a1003c91 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/MediumCorridor_03/MediumCorridor_03_paint_MediumCorridor_03_AlbedoTransparency.png
+  importAddress: Guid(88ed1c86f0b6b2a42a2d2019e6c500cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/MediumCorridor_03/MediumCorridor_03_paint_MediumCorridor_03_AlbedoTransparency.png using Guid(88ed1c86f0b6b2a42a2d2019e6c500cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db850025ffe5106393d4f6c2cc39f10f') in 0.0163464 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=198c7d40b774970b506d1ee206a43228 DependenciesID=9a6256078d1def6eaba2d6f709038121 StaticDependenciesID=0c49180c2369d7013d6771e9f16bda25 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/DripStone_01/Stones_01_Paint_DripStone_01_Normal.png
+  importAddress: Guid(142a5df1c9aef8b4b8b06b507eaa5811) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/DripStone_01/Stones_01_Paint_DripStone_01_Normal.png using Guid(142a5df1c9aef8b4b8b06b507eaa5811) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '29d2eebd4cd6e3e9bbfcb346b686c012') in 0.0259079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=567eb66465acda063feb9972f20b0a09 DependenciesID=0c3ce5ef5b828639c536d80c3845ea29 StaticDependenciesID=54f0920459fe21e1dd7786eb5d590d7b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/DungeonProps05/DungeonProps05_Normal.png
+  importAddress: Guid(24c7d88b0fd8f794f9ada4416824556d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/DungeonProps05/DungeonProps05_Normal.png using Guid(24c7d88b0fd8f794f9ada4416824556d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '30a671cc5d6864eb61332535e87b853c') in 0.0375506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b8ca11a0bda9108acf6a3d2e15f6d24 DependenciesID=8efaca62a52c4e5276e58c8a797ae1ad StaticDependenciesID=5e76c8eb24898c0e58c701542adb9e10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_FireWood_E_003.png
+  importAddress: Guid(abc00000000004847866044431199451) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_FireWood_E_003.png using Guid(abc00000000004847866044431199451) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9374b143807744b37100c03ba8b1fb7f') in 0.0105941 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cce495b07e8914375b8a7715ae5ea34b DependenciesID=9c00236ab3a7a6500b9df7bfdd66d9fb StaticDependenciesID=d23db587d5e8efe774332ea2bb63a8b4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_boulder_c_N.PNG
+  importAddress: Guid(f72930dc2b66cfc44a3b54f5acdee064) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_boulder_c_N.PNG using Guid(f72930dc2b66cfc44a3b54f5acdee064) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '10e8bf7fe3275efabf2ac49ce97839f7') in 0.0137092 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2b89785382dac8da333477592186eab DependenciesID=66dd90fe266b279e52713b95108e22f5 StaticDependenciesID=104ddfd91f7fc11939cdee8c6d36900e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Fire01_Tiled_D_Yellow.png
+  importAddress: Guid(63e52429d4613d745abcc7f56b2d149e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Fire01_Tiled_D_Yellow.png using Guid(63e52429d4613d745abcc7f56b2d149e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a7673b4ab284fd079a50ee8dba80e85c') in 0.0083209 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6608d7b3bac8015bca7541d30049d0ab DependenciesID=1fc0cdf88cfebfaedc62cebf8d738707 StaticDependenciesID=9ee57fff08bda5a4ffbd5e6cb3ac3dd8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_EuropeanBeechDetail_02_D.png
+  importAddress: Guid(abc00000000012829357639489176154) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_EuropeanBeechDetail_02_D.png using Guid(abc00000000012829357639489176154) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f5472b6b98249351e1fcf07629e3bd2') in 0.0088364 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24c0a2a3b23143d404a0a5cc1115e7fc DependenciesID=7b7425cb27fe88eb370b70f5ddc94874 StaticDependenciesID=b65098f624c66738a41171c4f44f051d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MineWall_BC.png
+  importAddress: Guid(abc00000000015816640026248782505) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MineWall_BC.png using Guid(abc00000000015816640026248782505) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0ad8c2d4c6be57c03d9d92adaf995d46') in 0.0095425 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a989efc14c46ea30dd014a699cc1dc7e DependenciesID=74c5d99fd575ba4c662209a050d35da4 StaticDependenciesID=f5a90ba5e1dfa91ca4f3bab3dd5530a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_EuropeanBeechDetail_02_M.png
+  importAddress: Guid(abc00000000012144738098917259733) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_EuropeanBeechDetail_02_M.png using Guid(abc00000000012144738098917259733) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '01ab94aaa5348511b44c5cb2d7c13277') in 0.0119395 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fcdd840daef78b7c8f81527d81f1d553 DependenciesID=5653d8762d60ff1f2ffe6a8a98337420 StaticDependenciesID=39144749b48f05a80d9d582057e9a4dd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Aztec_Trim_003_normal.png
+  importAddress: Guid(abc00000000011400936087322682430) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Aztec_Trim_003_normal.png using Guid(abc00000000011400936087322682430) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5c89e44973ce4f6d27c03a2de009e77e') in 0.0100579 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8b40b13a3495c4753cd9413395f6b35 DependenciesID=8934212266d40b8f7fb91d69c63e9aba StaticDependenciesID=67e2efc515acb4eedc55fc6a4791b0d9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Boulder_N.png
+  importAddress: Guid(abc00000000017856062591106329815) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Boulder_N.png using Guid(abc00000000017856062591106329815) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7af3c1e89d2c1720e4d23b390e414408') in 0.0107033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45884af59e341179a81ac0ed9208a322 DependenciesID=84e3dbd821d5ebef6ce7ef101eff97a8 StaticDependenciesID=23bd1605c733852ce3e983d3eb6aed6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Firepit_B_ORM.png
+  importAddress: Guid(abc00000000010624073864029591708) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Firepit_B_ORM.png using Guid(abc00000000010624073864029591708) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2e629e28223df4f2f45cc085be547a8') in 0.01445 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d23f7e3ff211cdc7c69b90e20feaa2a9 DependenciesID=b832dba6a5e375372ddbffdf3829e75e StaticDependenciesID=2eaa44b61465662e4600fb75b8f90651 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_boulder_c_BC.PNG
+  importAddress: Guid(5a35190519968d34f9c02b2dcae50085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_boulder_c_BC.PNG using Guid(5a35190519968d34f9c02b2dcae50085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '71808144f640986c9e87103ed84dc370') in 0.0080014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6343c37f56bf8a5441c200c793542e89 DependenciesID=e9d8ec4145536aec9387def1d34d495c StaticDependenciesID=adc69ed92753bb617226837e03e7041d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/Plugs_01/Plugs_01_paint_Plugs_01_Normal.png
+  importAddress: Guid(8ad15802e5851ab42922bab21fe80d6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/Plugs_01/Plugs_01_paint_Plugs_01_Normal.png using Guid(8ad15802e5851ab42922bab21fe80d6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4465b0168446b841e3f6e01c1759468d') in 0.0266559 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c1a131f893c5aed2b8e46bb49e34480 DependenciesID=491b41d10b4c95e81f795ea50f035456 StaticDependenciesID=537bde483d226b7dfa9fa10a3c9f65da 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Textures/VineStem/VineStems_Paint_VineStem_AlbedoTransparency.png
+  importAddress: Guid(75f6a4ecdc4802440858860bd9816155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Textures/VineStem/VineStems_Paint_VineStem_AlbedoTransparency.png using Guid(75f6a4ecdc4802440858860bd9816155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd5649c5cf6e2630f8c83497595abd6ca') in 0.0132143 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28a7fba6bab9be88e32ff1ba4c9cc616 DependenciesID=c45da14714b79167011b122a4e82c922 StaticDependenciesID=d62da7cf3f3ad59b284040b1546a4176 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_BC02.png
+  importAddress: Guid(abc00000000011299168593971723992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_BC02.png using Guid(abc00000000011299168593971723992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c9a5b768170ed823370bf5309918745a') in 0.007324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b2179bd34075d8a67ff241621e402b12 DependenciesID=419873c1aa8fd781241b7d349f549252 StaticDependenciesID=658041860a436a05e6ce9a540851fb70 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_RockWall_ORD.png
+  importAddress: Guid(abc00000000004708901192272988096) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_RockWall_ORD.png using Guid(abc00000000004708901192272988096) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b535c86c12cae016404706bec8cbeb1b') in 0.0145764 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5040b4e13bfbdd4c77ab258a66961410 DependenciesID=e11f143d5ff6f410198f70e6b8b2447f StaticDependenciesID=18c24c5ac4d35aa4b00db9d3be1a7d3d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_ORD04.png
+  importAddress: Guid(abc00000000005774256324970606142) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_ORD04.png using Guid(abc00000000005774256324970606142) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd753b6a979bd12403adcf26b7f1e1201') in 0.0085974 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a20198b5523434f265d55d417e8c5b14 DependenciesID=9b12c38cff175fc4c66f970579238df3 StaticDependenciesID=52dccffd17c26427324f31534e715283 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_ORD06.png
+  importAddress: Guid(abc00000000005373656343506342044) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_ORD06.png using Guid(abc00000000005373656343506342044) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f7255d3b24f72c9c73127ba066460777') in 0.0120808 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0673687428bc28f66c8798f7da91e22d DependenciesID=bae6a34d3e7ce0e3045eaa0f41946c42 StaticDependenciesID=4bc24106aa13ea7a347698f1431693cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_ORD.png
+  importAddress: Guid(abc00000000014201865439641719703) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_ORD.png using Guid(abc00000000014201865439641719703) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8ea8424dc6a0ddce4d8b785c00f926f8') in 0.0111701 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c2894f407b68d2d6b36e6c6d52ed9ca DependenciesID=b16c576f4b65cce40254671f45fa8017 StaticDependenciesID=478615fd086a98fc0a4c8ab98b5d4d3d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_StonePlate_H_ORD.png
+  importAddress: Guid(abc00000000012512075384020316111) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_StonePlate_H_ORD.png using Guid(abc00000000012512075384020316111) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd707ced47a9e034592a4d7d84b7ac9af') in 0.0125184 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d23e72e73badbd5beefaf568d597fcf DependenciesID=3caaa3d42000a3ad3c563d31d4e3db7d StaticDependenciesID=cc841c220275636f69de542830ec5490 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_StonePattern_N02.png
+  importAddress: Guid(abc00000000015797085486859705990) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_StonePattern_N02.png using Guid(abc00000000015797085486859705990) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '82f84c23a346eca5de92b4f09aa94d17') in 0.0097535 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca5181d3cbdba15894df2afdfdbc2d1b DependenciesID=8f0732122ced3f33ee9715ae681b4ef3 StaticDependenciesID=b055c503b8b9fc6ee080674001d307b5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stone_D_ORM.png
+  importAddress: Guid(abc00000000014801958426368496462) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stone_D_ORM.png using Guid(abc00000000014801958426368496462) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '86fc019980f368dff5f3ce4f4b181836') in 0.0113307 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5b50f15469cbc5026424b323cea66e8f DependenciesID=8fcf2c4bbc404ba292f4f9997345a644 StaticDependenciesID=58f15f624984ab9381e3325a2d1ca57b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_ORD03.png
+  importAddress: Guid(abc00000000012207005506608181709) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_ORD03.png using Guid(abc00000000012207005506608181709) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a5ad3638faa4e8258821f62acce101f0') in 0.0151399 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e4eec3c2f3c00fe74a9f040d36b8b84 DependenciesID=315006bb26db1e3faec5b9e59643ea75 StaticDependenciesID=0e809bcb2333a9fe13fddf93507148d1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_N06.png
+  importAddress: Guid(abc00000000007360107379367247193) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stalacite_N06.png using Guid(abc00000000007360107379367247193) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fb691343278a454476c2d865628c71c8') in 0.0087322 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6fb1493ef5bc4abfe934f06903e930d DependenciesID=f576585404aeb7f7a6cec0a983c00910 StaticDependenciesID=2d9a5233124214dd20d6885a990a7461 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stone_C_BC.png
+  importAddress: Guid(abc00000000006520239191483446361) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stone_C_BC.png using Guid(abc00000000006520239191483446361) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7df9ef8607228541922782fa13d4eea0') in 0.0076811 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1bf52d62cb2708136a7ebc63856276cb DependenciesID=ec1ecca7a32096632a88c57c41395de8 StaticDependenciesID=8c837bed591c56c5830eb1cf5203f167 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stone_D_N.png
+  importAddress: Guid(abc00000000010446647293766136848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_Stone_D_N.png using Guid(abc00000000010446647293766136848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fb5966ea5cd48fa86f892008e5cdb3b1') in 0.0079731 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41567a4bad176089b234b66d8d597bfe DependenciesID=75f0b5486c34716a618d4268158c5bec StaticDependenciesID=bf048a4b80562d0a1f740cc028cdc424 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_EuropeanBeech_Bark_01_A.png
+  importAddress: Guid(abc00000000012293578066672194862) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_EuropeanBeech_Bark_01_A.png using Guid(abc00000000012293578066672194862) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b46f7ed6cf7e00c76e4cd7610a89e684') in 0.0064672 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9007820ec61656bf0ec99ea91c0d89d9 DependenciesID=e61819755cd43d1809cacdd984e14bd5 StaticDependenciesID=f0e8bf9def6a6844b4f4418e733ee244 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_EagleFern_S_02.prefab
+  importAddress: Guid(abc00000000009116345104430325707) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_EagleFern_S_02.prefab using Guid(abc00000000009116345104430325707) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '57ae8a4b7046c2f0c990b76bc74aa4ab') in 0.0061711 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c54d2f170548b7635ba38a2cf7c8d78c DependenciesID=58056f108710ea27d1f66381019eec04 StaticDependenciesID=6ff60e68e7712c4449066bf69af28539 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_stonepattern_g_ORD.PNG
+  importAddress: Guid(deda447e8a0ffa6418bdd43106909810) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_stonepattern_g_ORD.PNG using Guid(deda447e8a0ffa6418bdd43106909810) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ffa1814e7822551fef449fe17a3fd106') in 0.0063228 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8105fa92b453664a112fbf0068e84a92 DependenciesID=c41cc77fa8a83c8b1bd2ab67df454518 StaticDependenciesID=a3b98f7f175e0b73163d761e56c8f307 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Boulder_B.prefab
+  importAddress: Guid(abc00000000014621462514801664999) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Boulder_B.prefab using Guid(abc00000000014621462514801664999) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b7e5eb3600f9ea3a3250998e64469771') in 0.0057224 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c08de0a4a70fe46d331e7682e2f4d31 DependenciesID=f5448d5ffe9fcdf0d2d1e9f52a87964f StaticDependenciesID=7b91979ff7244580240b44c2ac5be973 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Rock_N.png
+  importAddress: Guid(abc00000000005604451500764248257) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Rock_N.png using Guid(abc00000000005604451500764248257) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '99c3f60a20fe1f7c849aa792d16a3105') in 0.0094632 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b998765dfbc1e05d54213e95ca236ae6 DependenciesID=dba3547b4ccfb27e65a0f4dce330e16f StaticDependenciesID=f26e079de5ad2c1354b4cf1198f5e515 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_TempleStoneGround_AORD.png
+  importAddress: Guid(abc00000000017234471269131414307) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_TempleStoneGround_AORD.png using Guid(abc00000000017234471269131414307) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd626b470fc7f8b74b492bd2f5c5c2e22') in 0.0079949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f2dfe3b831a55754f08dae9d4450210 DependenciesID=3dac09e280e7641c515e56254a9fd9f1 StaticDependenciesID=ff8e788237ef8f6a4f9f8aad4ff2c58e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Boulder_A.prefab
+  importAddress: Guid(abc00000000004956713312530703404) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Boulder_A.prefab using Guid(abc00000000004956713312530703404) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '149782b12880d4e90548911d0bbe5048') in 0.0056433 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c4a2d641dd37e9f3dc33a1740c4bb89 DependenciesID=a478a3d1085b1337beb46192c22bb2cc StaticDependenciesID=5c1b20bfe961ba5145e5a01397533a0c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Rock_N06.png
+  importAddress: Guid(abc00000000001120493716655026838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Rock_N06.png using Guid(abc00000000001120493716655026838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '696a09b34d72a56a48619cb2bf100650') in 0.0088585 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4845fd444eca36c709aec0b4dcebaf9 DependenciesID=1919b941b3368162ad53360b8e4056fc StaticDependenciesID=4374425b77c60c4d39a6dddb4668f968 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_EuropeanBeech_S_01.prefab
+  importAddress: Guid(abc00000000002995431709613086229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_EuropeanBeech_S_01.prefab using Guid(abc00000000002995431709613086229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ca84e69064ba98016bfde95b139c935c') in 0.0047391 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b666fd765b8ad9d2cf62995bde2b865 DependenciesID=4bbea866f851a4bd00ab3a0115e948fb StaticDependenciesID=3e804788231f3b53d7b447b92a2db9e1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Rock_N04.png
+  importAddress: Guid(abc00000000013504184054779967904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Rock_N04.png using Guid(abc00000000013504184054779967904) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee5706839a3801ecc9bebd47ed41b187') in 0.0079117 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19802fd8cc960e98ea3574c7e4999f68 DependenciesID=e5243f9e046a0d42d5ca44e109dce834 StaticDependenciesID=b0567a229c0deca1030130c154352d68 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Rock_N03.png
+  importAddress: Guid(abc00000000012799079414012075847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Rock_N03.png using Guid(abc00000000012799079414012075847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '06a12e020a30a39334a9d9e87431f3bd') in 0.0087907 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c33e7a45a1e28cf2d82555c80b402ed3 DependenciesID=fef20c56bc9f9a0c39fac9db6fc66741 StaticDependenciesID=272f74d3c26a6279cedc9edab8458298 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Rock_ORD03.png
+  importAddress: Guid(abc00000000000221177093136062622) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Rock_ORD03.png using Guid(abc00000000000221177093136062622) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6167a5c1385981a86e39666097f17b11') in 0.0095033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01e04ca449abf9d7651f530844fae2a5 DependenciesID=ad67716885c9cda102db38e5fbecebd7 StaticDependenciesID=6304ceaa6ae2f42d672ec542647f4c96 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_StonePlate_Albedo.png
+  importAddress: Guid(abc00000000005266645508424448838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_StonePlate_Albedo.png using Guid(abc00000000005266645508424448838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0b09f260774a458adc0caf0441b16de6') in 0.0106007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0265bef216f9137a82a493e3e2ae5c65 DependenciesID=79e6adbd9e7ee403bea2c86e8b4366cf StaticDependenciesID=bd9f13498a3749282cb4703983f5027b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_stonepattern_f_edge_N.PNG
+  importAddress: Guid(e3e087bd996dd5946831b6a68b81ccea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_stonepattern_f_edge_N.PNG using Guid(e3e087bd996dd5946831b6a68b81ccea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ba88cfaff867ba222da2bb4ae2d7f395') in 0.0077601 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dfcbb4d420632616122ba5b27923fb3f DependenciesID=90377ea1124d5b9871f5b28e47b6b072 StaticDependenciesID=6700db9aa814977deb20641a24e23825 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_RockWall_D.prefab
+  importAddress: Guid(abc00000000016943320568587847083) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_RockWall_D.prefab using Guid(abc00000000016943320568587847083) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6e3c3f947f5668ecf2849ec8ea605df6') in 0.0069469 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5061caba758490a49d7fc760342eee38 DependenciesID=97a5e208ef5e8fd7818ad29db849db7b StaticDependenciesID=924dade9219a2c4681efe8c42a108b0f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Wall_Aztec_C.prefab
+  importAddress: Guid(abc00000000007350727321798800617) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Wall_Aztec_C.prefab using Guid(abc00000000007350727321798800617) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b5cdafdd7d25d03e3a12d3c8caad309d') in 0.0070779 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=065c59be348b90a8d45a99059303f435 DependenciesID=0d64351ba95986fe286a88194109fb92 StaticDependenciesID=b2a5bdaa6608b72e07d8ca231ae9757f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Wall_Aztec_E.prefab
+  importAddress: Guid(abc00000000002420830747643712679) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Wall_Aztec_E.prefab using Guid(abc00000000002420830747643712679) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0d95a456ff92e379a06db9199361b362') in 0.0058718 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7685b14daa4eb34cd3f79d132e0d42e6 DependenciesID=60ac7e4d56cf6e4c93b86b3ae8a198ff StaticDependenciesID=cdbebcc7651b2b67911ad78b29b3c43a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Vine_C.prefab
+  importAddress: Guid(abc00000000006727434436927824567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Vine_C.prefab using Guid(abc00000000006727434436927824567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c58d150848e1982733c1a8cc417b3a98') in 0.0051277 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d9d4856766d20dde1eb8dfefc63c6e1 DependenciesID=baa81fcca25a34cffadb8adc203d74a2 StaticDependenciesID=8901ddc9e1a24319a1a3ec0d075e8f85 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_StonePattern_G.prefab
+  importAddress: Guid(abc00000000003598539309462340072) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_StonePattern_G.prefab using Guid(abc00000000003598539309462340072) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e1d9a7d539176f25c0cc10a136b14bc7') in 0.0069876 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e6bfc2a54745da75ee17f649df44f27 DependenciesID=c74ddfb2a864bfeefae91e6c48ee3ba8 StaticDependenciesID=d4268b83bed309e5028f045de456913c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_StonePlate_A.prefab
+  importAddress: Guid(abc00000000002407263336612789528) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_StonePlate_A.prefab using Guid(abc00000000002407263336612789528) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f52b0b76e4d4b2cbe7ac473540f0cce7') in 0.0052892 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a221e31e3d21bde54ed11a0768342b68 DependenciesID=b578e07ee462f77b7a0eb7952831763c StaticDependenciesID=66dd4cb84f1fb2f3d4eca217aa3cfe84 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_StonePlate_D.prefab
+  importAddress: Guid(abc00000000005913207339799480365) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_StonePlate_D.prefab using Guid(abc00000000005913207339799480365) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5812d1b42baa2b4e7ab96acccd7da979') in 0.00644 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=299bf08899bf0f1f5045103b2c614e8c DependenciesID=96c77cd0af8fb4c1f3dacf499d665102 StaticDependenciesID=f2fa5e4b1ddf3fdc726c2db7ba78a458 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Pillar_D.prefab
+  importAddress: Guid(abc00000000008566488508193822840) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Pillar_D.prefab using Guid(abc00000000008566488508193822840) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4b006c09cab4154b7baf1d742f95645c') in 0.0064265 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=21ed4463debd1a3947a81d15c8192660 DependenciesID=a99eb9baa23f70d0f7974decf45c3b8a StaticDependenciesID=bf3336b75fa1fd8b62b163b1650a9fed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_RockWall_B.prefab
+  importAddress: Guid(abc00000000016205213309732076789) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_RockWall_B.prefab using Guid(abc00000000016205213309732076789) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '63fde3390b2e7aa784f31a440f00d132') in 0.0066743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b754fcc2738e2e1621f712c2a5a4aa8 DependenciesID=06657172dc4c49437473303a95fac144 StaticDependenciesID=821cf972c43e52a9e6f0d02984e046a1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Ground_B_1.prefab
+  importAddress: Guid(abc00000000004302113354826268515) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Ground_B_1.prefab using Guid(abc00000000004302113354826268515) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7928d5a67b90b61e5cac2af0ae90ed45') in 0.0057908 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9bee6cfb95025040969b5fbfa1a30803 DependenciesID=409e03ded69f007f62f4cabed4691164 StaticDependenciesID=2ed209ee62ecbfea3bfc5dfe412a5cf0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_FireWood.prefab
+  importAddress: Guid(abc00000000009532008561416526890) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_FireWood.prefab using Guid(abc00000000009532008561416526890) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '39e317ffc7cbafddfada1375a5fb74ba') in 0.0074532 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=085ef54e6f3735e4135539a67aad1c3e DependenciesID=843c24f2410476fc2268ab57a813283e StaticDependenciesID=1593fe62f287c3e0f55d781aba8196d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Ground_B_4.prefab
+  importAddress: Guid(abc00000000005484994792939664646) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Ground_B_4.prefab using Guid(abc00000000005484994792939664646) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '359907ab46f2f5527599666b7eb2ece4') in 0.0056115 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea7094d004fd66316d4c45bbc33891d9 DependenciesID=8f6cb4442e7e7acf906f14bbe853eed6 StaticDependenciesID=c00bd3d575c02ab79067e0aae7ce0d58 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Presets/XRI Default Dynamic Move.preset
+  importAddress: Guid(da25954ba1a2e604294f2ccda1d6372c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Presets/XRI Default Dynamic Move.preset using Guid(da25954ba1a2e604294f2ccda1d6372c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bbf4fd7545e42cd905b4224716b0ea6c') in 0.0128083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7eba5c7c4bac477870ee725322821fc4 DependenciesID=a6210f3693b65ce05941184640623d95 StaticDependenciesID=6ae5e73189dde79a7ccf2daf1f0edfc4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Materials/Controller_Grey.mat
+  importAddress: Guid(99685157b02e4d446bbecb015645e5e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Materials/Controller_Grey.mat using Guid(99685157b02e4d446bbecb015645e5e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8c8787027bd1610de1da6e0795beb50c') in 0.0089999 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6faedded9f77e93072032cbf30d97490 DependenciesID=e78e4bd8ee19f51c803e9b7c65a9083f StaticDependenciesID=6ce001109784c092ecf5a5adf3fbcafc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Presets/XRI Default Left Controller InputActionManager.preset
+  importAddress: Guid(c3d4ecc12d5e0f14c93fd734af32ab63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Presets/XRI Default Left Controller InputActionManager.preset using Guid(c3d4ecc12d5e0f14c93fd734af32ab63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7311f882cdb00a44f67b0a7e6574b6e5') in 0.0075166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=911538de9442e97ac848e361b92ffef8 DependenciesID=c84869d4fbae687ae537c1d5c1d29320 StaticDependenciesID=e4130c949c5f044e6a7d9d842915c7f4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Textures/DefaultMaterial_AO.png
+  importAddress: Guid(85e675893a909864d9c237e20202651b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Textures/DefaultMaterial_AO.png using Guid(85e675893a909864d9c237e20202651b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '876951201f24266b079db77386a29195') in 0.0080834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f8612c39838c293fe2d6ed873bbb807 DependenciesID=c5ce623f27e9490ae8dc1a5b1f2464c8 StaticDependenciesID=30f24a1b0e28c11ad190a9df5378f84d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/BasicShapes/Plane.fbx
+  importAddress: Guid(abc00000000017822585110962714169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/BasicShapes/Plane.fbx using Guid(abc00000000017822585110962714169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/BasicShapes/Plane.fbx)
+ -> (Import Result ID: '9a2660fbc194f893d3e67cc70fd04da8') in 0.0081737 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64ebc84a15ac0630aaeb98661024abd3 DependenciesID=3d93579595391770a3c2c1970fc4b102 StaticDependenciesID=1746b7433288aca1db3302d1dc245038 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Presets/XRI Default Continuous Turn.preset
+  importAddress: Guid(735a78fc7c2a98a4e85e0e42bf895f48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Presets/XRI Default Continuous Turn.preset using Guid(735a78fc7c2a98a4e85e0e42bf895f48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '11c94ea34bb2134cc0010cd0eaa53a0b') in 0.0061872 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd847087ba240db4d80cc501bf61c07b DependenciesID=052714dd27e681f521295c78d08e74a7 StaticDependenciesID=dda41b22fcf58b6e8b97ff06b4738e9e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/Reticle_Torus.fbx
+  importAddress: Guid(be2911572dc3afa448d24b4e97edc5f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/Reticle_Torus.fbx using Guid(be2911572dc3afa448d24b4e97edc5f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6c584ddebc21f6c8e7e694a4e0ede549') in 0.0096277 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e686a5324c03b5b4fb02d1d3f0b9bcf2 DependenciesID=e9ae3b1ec1015435266e6fbb48316c9f StaticDependenciesID=9cbb577282d3c69b3a9397b6e699df40 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs
+  importAddress: Guid(4dd2e41114c62b44fbd334ca5b314352) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs using Guid(4dd2e41114c62b44fbd334ca5b314352) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f396a8d082d383833f11a7761ca3c692') in 0.0076644 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20611c1a2d569d1fefa287500908e21b DependenciesID=cb3fefd19c80ffeb70c739d200ad692f StaticDependenciesID=d813ff34dec011af986ad8f1f9da5bd2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Prefabs/Roots/RootLarge_01.prefab
+  importAddress: Guid(884c0a1c9936ea440bf63b4729cfe636) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Prefabs/Roots/RootLarge_01.prefab using Guid(884c0a1c9936ea440bf63b4729cfe636) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2fb0f831275d1a030b1b985cea2b6dbb') in 0.0089181 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=969a324ee2210d66d986ca21eca7d50b DependenciesID=37d6b8955aeefa7d5f41cd8393871a13 StaticDependenciesID=3c0543c6790d4463a138374ae10ffe6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/Primitive_Wedge.fbx
+  importAddress: Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/Primitive_Wedge.fbx using Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cb1d607f7d88f749e054e2f7e19ae801') in 0.0133345 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e70f49ed3f644120f990eabd6645d32 DependenciesID=0b7dedde02878d6832bb224e63901384 StaticDependenciesID=12435c944bd9cf1408dcc9968b3c733d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/SM_Vine_C.fbx
+  importAddress: Guid(abc00000000004012959434225037964) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/SM_Vine_C.fbx using Guid(abc00000000004012959434225037964) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/SM_Vine_C.fbx)
+ -> (Import Result ID: '4509ee131f015ff2f2d5db148c341712') in 0.0129542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a69e6f5d17e5a3e85fcaba22327217aa DependenciesID=ed77b638a5aaf08a00d6695174553b46 StaticDependenciesID=568d95b2a4fe6b05d4a847808e81b273 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Ground/M_Ground_WA_Mud_002.mat
+  importAddress: Guid(abc00000000004571287995539567655) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Ground/M_Ground_WA_Mud_002.mat using Guid(abc00000000004571287995539567655) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '983ba676e72e443c02a6b784e098ebe7') in 0.0141517 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0106d710c65e21cd702654632e400684 DependenciesID=db22a9ecb8d1af1042a02338da567342 StaticDependenciesID=42ca5ea0aa9e9fa798a9bb1bd33866fa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/VFX/Materials/M_FireSheet_01.mat
+  importAddress: Guid(d10c1dc24453f8c4eb26d8ed7223d745) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/VFX/Materials/M_FireSheet_01.mat using Guid(d10c1dc24453f8c4eb26d8ed7223d745) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd001ba86b4dcb47beeef4dd0a3377f90') in 0.0082775 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3f3df54c98be87d9507ece787f72b3a DependenciesID=7b3f0f3e47e77c7c68992712ffc83b15 StaticDependenciesID=34c14964359dcdd092bfa1d965580498 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/AffordanceThemes/InteractionColor.asset
+  importAddress: Guid(3ec238cb3e80e274c844d7b56f585392) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/AffordanceThemes/InteractionColor.asset using Guid(3ec238cb3e80e274c844d7b56f585392) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '07f3777fbb0fbc4defbf77810ff7e8ad') in 0.0075973 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e31ab47a29807724c0476f8c726a27fa DependenciesID=37a3cfb80c3cad9a20d55859e5acbfe6 StaticDependenciesID=026457b4b07b5cd438099acbc4b57fde 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx
+  importAddress: Guid(e51d3dbfe79e4c646bb30424a11f23a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx using Guid(e51d3dbfe79e4c646bb30424a11f23a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '70ecdbc2d2d41acb28cd922e9ded21dc') in 0.0109379 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e9bc5419e2a7581b0c9016fae23e0b3 DependenciesID=9dcb10bdf1660ea831372687555d6e67 StaticDependenciesID=4d2a2813359768fb6872bb58ee0ab03e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Settings/TeleportDestinationSettings.asset
+  importAddress: Guid(8d66c9762e1587643a1164368c8a2c58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Settings/TeleportDestinationSettings.asset using Guid(8d66c9762e1587643a1164368c8a2c58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1297659871771b545025c90e3f7dcec5') in 0.0089494 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=631fdd1967726ff4f740f28cb117a07d DependenciesID=68e2d81d676a85f54d0a155be43a8964 StaticDependenciesID=3cccf47922b2d5ee1b2d8396003fc518 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/ShaderGraphs/S_Water.shadergraph
+  importAddress: Guid(0eaae29f371926a4fb41ee2ce13d0bf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/ShaderGraphs/S_Water.shadergraph using Guid(0eaae29f371926a4fb41ee2ce13d0bf3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1dcd344765f4d690d7a298837491f03d') in 0.0163725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b19ff3fa87647915d46f16bda9dca54c DependenciesID=3ec65de07d3dbc2a8608b6476f5d7b66 StaticDependenciesID=939b7bb7dc4875bbadbc938729559238 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/Primitive_Cylinder.fbx
+  importAddress: Guid(9e1dc1c14313460d872de39e35129b39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Models/Primitive_Cylinder.fbx using Guid(9e1dc1c14313460d872de39e35129b39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4d7c9e50f92a904a6c3d36eee81b1310') in 0.0090453 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fff5ddfde842dffdf1366066d751096b DependenciesID=956ad1f8502b3ed3bbd7f7a678bf31ad StaticDependenciesID=1b028b899549e7fee1aead3d0d0657a2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Ground/M_Ground_WA_003.mat
+  importAddress: Guid(abc00000000012619207571913192188) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Ground/M_Ground_WA_003.mat using Guid(abc00000000012619207571913192188) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9a1e45ae9c3f9090779c24b8fe32b3d0') in 0.0117105 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cafd859b7f372f7ba07bc9a7e8c4027d DependenciesID=efc900e6998e2a2d3313fa7acb108a8f StaticDependenciesID=cdf011c1e61b5de0c0562f9a967b5da4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs
+  importAddress: Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Scripts/IncrementUIText.cs using Guid(ba6ff5e7c92519444bc2a7ca46558963) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd2da4b74d3be69fb7cf955e02660f394') in 0.0032613 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec91ceffd7f67b1ac0210c88bf804825 DependenciesID=35ac77d07d6cfcce0328728d0ab187fa StaticDependenciesID=f77b0882b994149ae936071b30a9bc1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab
+  importAddress: Guid(893219773891c784ab469a39151879b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab using Guid(893219773891c784ab469a39151879b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b5536b81227ad3fc36813123553c0ab8') in 0.0053259 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ba7dbaf558465e98ab2ccd4640c2da5 DependenciesID=b011f19442f2c2f33410c0db8a1686ff StaticDependenciesID=b6d00179fdde432ce08b126f89979516 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab
+  importAddress: Guid(c1800acf6366418a9b5f610249000331) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab using Guid(c1800acf6366418a9b5f610249000331) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ebdc209650e794cd949228dd0413fa89') in 0.0868723 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5bc5cab2d07640039ab6d84a9884ec41 DependenciesID=2cc406db2df45fc9b5589bcc077a7b36 StaticDependenciesID=c8d023b6d3b02f66a255a030cbdac911 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs
+  importAddress: Guid(ef67ceb22b2224643a2d5004fc2a678a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs using Guid(ef67ceb22b2224643a2d5004fc2a678a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4ca3c1e38d66f1c2ee4782d61beca3c1') in 0.0029495 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72a958758a4e5f76f003d77222c61020 DependenciesID=eb06130e606030e809f254ecd09adc7e StaticDependenciesID=427f5d0c1fa47a1a1e0d25106b9ff398 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png
+  importAddress: Guid(2f8349570a152884fb6cf7ebdc8c18b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png using Guid(2f8349570a152884fb6cf7ebdc8c18b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '83e27b17c03660a39cfea68062938a47') in 0.0085105 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=565b15bb057ff59e085b204e31f03be5 DependenciesID=cffa448afb979bec06a455e4b8222eb0 StaticDependenciesID=903f4d7beb41fd9cfc6ae187fc288ff2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/AztecMuralWall/AztecMural/SM_Wall_Aztec_C.fbx
+  importAddress: Guid(abc00000000005913604250935479498) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/AztecMuralWall/AztecMural/SM_Wall_Aztec_C.fbx using Guid(abc00000000005913604250935479498) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/AztecMuralWall/AztecMural/SM_Wall_Aztec_C.fbx)
+ -> (Import Result ID: '05c841e1dff666f175ca51c696a45e37') in 0.0118478 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2858af254b265f7ca5ae451a1aece2e0 DependenciesID=757db12400e6a15fe543d8e780ec0a35 StaticDependenciesID=b6ea85d059a05ea4b072194c535dadb1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/00_MATERIAL/MI/M_Water1.mat
+  importAddress: Guid(abc00000000013914379745910235226) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/00_MATERIAL/MI/M_Water1.mat using Guid(abc00000000013914379745910235226) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ba05774d3928795d0148a8d782b9e242') in 0.0082289 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86bb0f688123e858c42713968315cfc5 DependenciesID=282abd879a764d76cc1dc3fb2edec525 StaticDependenciesID=ba2ae08c86656776ef42061849b6fa9b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png
+  importAddress: Guid(b7bad1260586fa746a0b67e930892936) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Sprites/Round Radius 4 Outline.png using Guid(b7bad1260586fa746a0b67e930892936) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cf5ca09a35932e756f1087a3d00ea27f') in 0.0066289 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42bd1de32d7e8cb61af3259840cfe149 DependenciesID=2e917bfc8e52d59cc9cda3faf43c6820 StaticDependenciesID=50ecdabbccb19ff4c25baec0c9437926 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Prefabs/Teleport/Climb Teleport Arrow.prefab
+  importAddress: Guid(ae1968658b9687b47976fe86c062168f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Prefabs/Teleport/Climb Teleport Arrow.prefab using Guid(ae1968658b9687b47976fe86c062168f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d9f5c45c705dc6e2e47144c650fb1fd') in 0.0106972 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4d9b55b37c9ad2a6f35d960fc5f3445 DependenciesID=c0b8b7309ba7dc19141dd79d5d47d573 StaticDependenciesID=e61a1d38b49cf628a921bd376f3692be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab
+  importAddress: Guid(b200f6587d118224eba8467281481800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab using Guid(b200f6587d118224eba8467281481800) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '80d4776dabcb47a600cd9a5d8c56a925') in 0.0373655 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b38923720c288160982cbc033cef1d66 DependenciesID=49269d752bd0d544ebfc4b681ddc66d4 StaticDependenciesID=d81c42d870aeaff2d3ebda927e4f337e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/B/M_Pillar_Trim_Simple.mat
+  importAddress: Guid(abc00000000016449681701085399751) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/B/M_Pillar_Trim_Simple.mat using Guid(abc00000000016449681701085399751) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '41695ed28bf635bd48e9622992b59f98') in 0.0172746 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9ce250c5b388adb0737e951c12c0dde DependenciesID=1d22891a14d02ed5d5c50991e3b87669 StaticDependenciesID=856a402c52172e6421c5966f835e99de 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/D/M_RockWall_D_Simple.mat
+  importAddress: Guid(abc00000000010663966366088157623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/D/M_RockWall_D_Simple.mat using Guid(abc00000000010663966366088157623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c5d9da476edc5d3b399d78b705357dee') in 0.0169975 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a733e08885ae69fbfed73172fad4465f DependenciesID=21a9f1057f2fa36ca13b9fb80952648c StaticDependenciesID=9863ef0102de543644ccfa99dd8c1607 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/C/SM_RockWall_C.fbx
+  importAddress: Guid(abc00000000008484306470759024097) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/C/SM_RockWall_C.fbx using Guid(abc00000000008484306470759024097) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/C/SM_RockWall_C.fbx)
+ -> (Import Result ID: '94a427e57a98cc2461fe6a8842894a4a') in 0.0123257 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ab4586926273ac1d494f1f9471b3a53 DependenciesID=d9fea57fa0964616d6e94204bd49a250 StaticDependenciesID=8cd3879037d13896cc539c40d81fa2e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/D/M_Stalacite_D.mat
+  importAddress: Guid(abc00000000004935272583939387088) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/D/M_Stalacite_D.mat using Guid(abc00000000004935272583939387088) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '90a3a8d4ae46ef3388db234856f44d64') in 0.0123128 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d19cf04503a76c921059ae7d230c1067 DependenciesID=2ef53ae4107d79bbf8caf7d8720cb74b StaticDependenciesID=b746b44cec1ee1eb624cd42d832a239c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Rock/A/SM_Rock_A.fbx
+  importAddress: Guid(abc00000000000690070618943580829) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Rock/A/SM_Rock_A.fbx using Guid(abc00000000000690070618943580829) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Rock/A/SM_Rock_A.fbx)
+ -> (Import Result ID: 'fb34ce6a6f1dd85eef0d0cb5b6fbfd70') in 0.0123549 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9431b428712e4ce2740839fff4bd5430 DependenciesID=fef59ac3220d54677ba6ed648f288190 StaticDependenciesID=111af10f48d2b3f0ba3b84551e4a0b32 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/BasicShapes/Materials/MI_Water.mat
+  importAddress: Guid(07afe02218d7bed49bede834d308cb25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/BasicShapes/Materials/MI_Water.mat using Guid(07afe02218d7bed49bede834d308cb25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2cb2dd093012459ecd8d84a88d3942b') in 0.0100981 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=88b1538be732147d5953ff4888e7aefe DependenciesID=9cdc16ee97964d798292ba39a5e37d85 StaticDependenciesID=40fd11ee22b1fdcfcf35be24a122ec97 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Editor/StarterAssets.Editor.asmdef
+  importAddress: Guid(9233538b711383d449a485633568d17c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Editor/StarterAssets.Editor.asmdef using Guid(9233538b711383d449a485633568d17c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec3a760864963140c425aa7f326f3813') in 0.0041127 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31c3d93a5c0b969ca7b7e8de81822933 DependenciesID=2457a5beb903cde28d4332a035769698 StaticDependenciesID=e7d47c65729c101b5a4ee9aa2f8f673c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Presets/XRI Default Right Controller InputActionManager.preset
+  importAddress: Guid(55f7614a1d331d14bb631965514937d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Presets/XRI Default Right Controller InputActionManager.preset using Guid(55f7614a1d331d14bb631965514937d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5ab58f86ddfde79b1b76ea27e120e129') in 0.0058005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e1165c55ca0bc25780239ae7e050be1 DependenciesID=7f21fbfd352df3a3271bc0d6b7ed4eb2 StaticDependenciesID=230ceb953f7158939b91f90724352347 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Arch/A/SM_Arch_A.fbx
+  importAddress: Guid(abc00000000016760550058911875097) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Arch/A/SM_Arch_A.fbx using Guid(abc00000000016760550058911875097) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Arch/A/SM_Arch_A.fbx)
+ -> (Import Result ID: 'eb39cff629256252a261f5730c71a964') in 0.0114367 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c11109ff5574feddcdf870209185bf3 DependenciesID=2b7e7694d4956f637e15998497d84566 StaticDependenciesID=f766541209cb6eed5adce26293eeadaf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Sculpt/A/SM_Sculpt_A.fbx
+  importAddress: Guid(abc00000000006511583663215072129) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Sculpt/A/SM_Sculpt_A.fbx using Guid(abc00000000006511583663215072129) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Sculpt/A/SM_Sculpt_A.fbx)
+ -> (Import Result ID: 'aff777bc698ea0f4ff6b85cc1a9e5ac6') in 0.0125155 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69d410367473995fab8dc365e7376e4d DependenciesID=aa6bb88fe9ea93530f03bf420d373fb5 StaticDependenciesID=d36d01b2c92b0dd88222e2c1d15c58a9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Stone/C/SM_Stone_C.fbx
+  importAddress: Guid(abc00000000016710836900844318039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Stone/C/SM_Stone_C.fbx using Guid(abc00000000016710836900844318039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Stone/C/SM_Stone_C.fbx)
+ -> (Import Result ID: 'f4418462cf41ee6b399d007bb8afab8c') in 0.0124968 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc5571cc0af597dddd7a3efa8f793b2a DependenciesID=d24c76116ffa3fbf032c625690699970 StaticDependenciesID=86d3663e6fd0ef6edbd83cb64ede87f3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePattern/TempleStoneGround/M_StonePattern_F_Simple.mat
+  importAddress: Guid(df7bf19d22f212347a093e7c7b5acfd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePattern/TempleStoneGround/M_StonePattern_F_Simple.mat using Guid(df7bf19d22f212347a093e7c7b5acfd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7536a852dd71af4a353c23c0297abf0d') in 0.0123729 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abd89ef64189a02ed909fe3aa09f0a32 DependenciesID=6d09fcdf7974706571aa7fa899b1557a StaticDependenciesID=8ba2fa4cd6da488745f0d0c4b566a8cd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/Climb/ClimbTeleportReticle.prefab
+  importAddress: Guid(6eb816e9b7ce30f4cadff3d4ad7ad10c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/Climb/ClimbTeleportReticle.prefab using Guid(6eb816e9b7ce30f4cadff3d4ad7ad10c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b1d738be21d43acaa13ab395afa07a08') in 0.0066256 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c59b61be87881b2f3d92adc1b48e6f4b DependenciesID=e436fc1d1574eb3deba85818d7aef3c8 StaticDependenciesID=597d6c63b74b54522f6a182344123cde 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Pot.prefab
+  importAddress: Guid(d5615d616019430d9c2e8727e71c97fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Pot.prefab using Guid(d5615d616019430d9c2e8727e71c97fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5dfbc60661b7d4b7775f0fb11678d153') in 0.0271491 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d1633f81cfdd9289493a6cc083153f0 DependenciesID=015a0c413045aec1ab0b94eefdf9c62a StaticDependenciesID=400ed37316efe0a5e9946fde2b554922 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Confetti.prefab
+  importAddress: Guid(7942e6544a2b2ae48bcf988d9aed838d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Confetti.prefab using Guid(7942e6544a2b2ae48bcf988d9aed838d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '301d6d78fe12ee4774da0b5036f4251e') in 0.0496017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b4cfcb438f3a1b3ea67a862a72207af DependenciesID=bcef7f3a586bf5dd84b24a0408c1df13 StaticDependenciesID=8baa01e527639d93f40d2e802d520660 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/A/M_StonePlate_A.mat
+  importAddress: Guid(abc00000000010148959050139590028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/A/M_StonePlate_A.mat using Guid(abc00000000010148959050139590028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5c56718dc84ab55053b373a245a498a2') in 0.0139606 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdda8a83b4715c7e985c426d24450e48 DependenciesID=8dd66d14523d5735024e9f4adeadf143 StaticDependenciesID=b94182150efcbe37000fb4cdc6020351 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/Climb/Multi Floor Ladder.prefab
+  importAddress: Guid(652585f331bff7e44afb8fe71ec2119f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/Climb/Multi Floor Ladder.prefab using Guid(652585f331bff7e44afb8fe71ec2119f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4bda7d2342a9901e1bf4b64650f66b97') in 0.0169757 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=193051c673221d63c3abbc5a1118627d DependenciesID=29fc8fba4506bdc6a1f32ec96270a7b6 StaticDependenciesID=72c7e26c715af779c64fd2503ed0fd76 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 292
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset
+  importAddress: Guid(0f906c94e2aa0c3488832acc1db04295) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset using Guid(0f906c94e2aa0c3488832acc1db04295) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4a353de3379341bb20a71246ca88f82d') in 0.0045781 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f14af72b9e5ba64585325d751fad16e DependenciesID=e950d8a837515cfd0d22efcbc0ebf3f2 StaticDependenciesID=299d6adafbb429ae16b6496cad88f540 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/ToggleColorToggler.cs
+  importAddress: Guid(cb280e627cedda749b93045b8dd8d327) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Scripts/ToggleColorToggler.cs using Guid(cb280e627cedda749b93045b8dd8d327) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9ff1e30a1b86eebf265c9f50bc5cb87e') in 0.0028811 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e151f5d193e8110f16f3d262b215075 DependenciesID=45705339e3c3f861fb5ef36d29391770 StaticDependenciesID=b23f053010fc4623f474ea01bbffaffc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/E/Materials/No Name.mat
+  importAddress: Guid(b651bb772c2e27b4eb5f17ce18426e56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/E/Materials/No Name.mat using Guid(b651bb772c2e27b4eb5f17ce18426e56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '643ae103d0ff7e9518b9b1cda27fb55b') in 0.0045376 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d716dd98d5226c7c74f1b8e58573a75 DependenciesID=f309eba25afc6f79bb04b49705e320d4 StaticDependenciesID=cce0d471d728e9da70ae31977cb3b531 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Rock/D/Materials/MI_Rock_D.mat
+  importAddress: Guid(38a94d612de87454db045cbdc34629dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Rock/D/Materials/MI_Rock_D.mat using Guid(38a94d612de87454db045cbdc34629dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0b6fa6963334b2256d5f689e32b30989') in 0.0050058 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ee4feee551194661d83ce498f1ba8a6 DependenciesID=e509372038e378949f8e4ac8762890c0 StaticDependenciesID=5d18725f91e6453060dc59856a1b4150 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/FirePit/FirePit_B/Materials/MI_FirePit_B.mat
+  importAddress: Guid(cdebd71f09d0512489b0478dcd037de5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/FirePit/FirePit_B/Materials/MI_FirePit_B.mat using Guid(cdebd71f09d0512489b0478dcd037de5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '16b29249fe5745d9c27aaea8a232f0e6') in 0.0038486 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=895f810d9a1e7fa67f0b00c75ebecb0e DependenciesID=733b6417dd9bc3b9c3a1f3c5f9685990 StaticDependenciesID=dca100aa81edd94ab3f354f7c7de3e67 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Sculpt/A/Materials/No Name.mat
+  importAddress: Guid(535e79897405e4b41bc69116d5ba86ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Sculpt/A/Materials/No Name.mat using Guid(535e79897405e4b41bc69116d5ba86ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '94ad7203c050f730d694ea29111284de') in 0.0047448 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b58c4a66d9c2ea2fb68c821a1b975cd7 DependenciesID=cb90cccf64c7ab807831802865b71525 StaticDependenciesID=0deb94b8e3f34c4cfeeab2b46b2be19a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Rock/C/Materials/MI_Rock_B.mat
+  importAddress: Guid(f4b8441784b78a84895c125b2e85b0b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Rock/C/Materials/MI_Rock_B.mat using Guid(f4b8441784b78a84895c125b2e85b0b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9e8ca70158bdba681289fdcd752e9f62') in 0.0039012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a1f3bf7fa7bb928fa180caa094b9ac1 DependenciesID=d60e1833c0f9ea4d6546ed0b1d20f99b StaticDependenciesID=2ce14e23c2f413984f384393d764c3df 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/C/Materials/No Name.mat
+  importAddress: Guid(0832ff97fc54bba47a598369ee29f475) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/C/Materials/No Name.mat using Guid(0832ff97fc54bba47a598369ee29f475) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7737dfee87cfca6e2268b68096d8683d') in 0.0049902 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59ba93567d6a5b77311cbc731113f74e DependenciesID=fc96a6e9cfd12f130744e0b790bcb08b StaticDependenciesID=a439a259879e710872369c5b52ffdbb9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/C/Materials/MI_Pillar_C.mat
+  importAddress: Guid(57c644a6f3821b144a962f7988e7828c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/C/Materials/MI_Pillar_C.mat using Guid(57c644a6f3821b144a962f7988e7828c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f3da305e1643ed5543a9dd152ddb98ba') in 0.0065547 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0945fd2f40aef80abd5fcee9447f377e DependenciesID=9c8f63f650919bc589b404e2d55e8a7a StaticDependenciesID=8a465d1ba01b32ab208960390f2461cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Rock/G/Materials/MI_Rock_G.mat
+  importAddress: Guid(b4daa82ace71c3e4ea97a070895fa86c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Rock/G/Materials/MI_Rock_G.mat using Guid(b4daa82ace71c3e4ea97a070895fa86c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ed422985221ebaae0cfd0d2e8730694b') in 0.0053064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7eb2de0dc77d1b0492bb138e26c72231 DependenciesID=1c4739b054d212a97921843d64861337 StaticDependenciesID=2d07a82d6722b71638425f7e69742f46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/B/Materials/No Name.mat
+  importAddress: Guid(96df4b101c8868d40a168cc659451cb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/B/Materials/No Name.mat using Guid(96df4b101c8868d40a168cc659451cb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee40d1422c6dd156fc0c8c1583dd0c81') in 0.0034252 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aba49147db3b10bdc33e17c9401d48c8 DependenciesID=8dba51c41ce6d0d2ee9e6363b336fc5c StaticDependenciesID=6dc5d571ad6cbfd430903a5074ec6f14 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/materials/dead_tree_trunk_diff_4k.mat
+  importAddress: Guid(62cbb3d9b0b26f74d897e79af9961f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/dead_tree_trunk_diff_4k.mat using Guid(62cbb3d9b0b26f74d897e79af9961f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b39afadebbdc01a61705b1a3eaefa701') in 0.9204708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e0e8c982a69eed979bc7ebf184ef7d4 DependenciesID=035d5aa69dbb1bbcab767a7107ff2d9e StaticDependenciesID=3375cee2a13372176f070ce74a98ae5b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/prefab/Right Hnad.prefab
+  importAddress: Guid(8519103223281024bb4571bfb23fce3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Right Hnad.prefab using Guid(8519103223281024bb4571bfb23fce3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0dffd585c73ea64078f800632ab1cbda') in 0.6184551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe7a323722873f8aa18c79f579ef6e62 DependenciesID=17703cd86f8c260741f64c2c5796761d StaticDependenciesID=ccaa5944d6da6fad76576e55c1f9b7cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Stone/B/Materials/MI_Stone_B.mat
+  importAddress: Guid(80ed36885a4153143a346d2c10135315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Stone/B/Materials/MI_Stone_B.mat using Guid(80ed36885a4153143a346d2c10135315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '267cf81ef24ef4cdbce0abce59445da9') in 0.004079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82ff03f88cbee2913522c60552f7bfdb DependenciesID=f1cfd5ad168654b82e9748e2de136f2e StaticDependenciesID=a6252dc36a385aeb5b5079f8b0066461 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePattern/StonePattern/Materials/MI_StonePattern_simple.mat
+  importAddress: Guid(b72a6b9f7ab731e43908d638815198a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePattern/StonePattern/Materials/MI_StonePattern_simple.mat using Guid(b72a6b9f7ab731e43908d638815198a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '81bac22240aa96c718927822612e3708') in 0.0039552 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29b866a432304bea733b4a5037dff655 DependenciesID=a1bd5342be4ac78588da3f17aca90e55 StaticDependenciesID=8b04de8c447e2f2b89628dcd60277398 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/G/Materials/MI_StonePlate_G.mat
+  importAddress: Guid(d62321aa3ccbf794aa532166dfbd7e33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/G/Materials/MI_StonePlate_G.mat using Guid(d62321aa3ccbf794aa532166dfbd7e33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1a6c9b97f939901c25b7059520ab832e') in 0.0047232 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50de39cf2fadf5788255fef0321010cd DependenciesID=56219890f0e7d73cef9f17f34570863e StaticDependenciesID=ce30658ef04e4ba7e0d224b4a712dfb0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Stone/C/Materials/No Name.mat
+  importAddress: Guid(2c0feed67cc1bc34da1c891b50ecf7e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Stone/C/Materials/No Name.mat using Guid(2c0feed67cc1bc34da1c891b50ecf7e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5fa84b63d1a22843ea86609fd7bf723c') in 0.0049385 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b706b8e1d18dd8b6f64c5e5cc9c09da6 DependenciesID=65c3c195cfff5d5f7e1b9792ab1b37df StaticDependenciesID=45b9bc742a2a9552a55994600c7a14a3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Stone/A/Materials/No Name.mat
+  importAddress: Guid(c11f0775fb9820b49a80a658e01d0896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Stone/A/Materials/No Name.mat using Guid(c11f0775fb9820b49a80a658e01d0896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2c5027997206d99a20278e30411b727f') in 0.0065065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a36a3945d58f437bba2b15d3fd7160e6 DependenciesID=4b266f07ab2e5b8161468ae18377acf3 StaticDependenciesID=884ed408a6b675f896e3416f19bede01 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/A/Materials/No Name.mat
+  importAddress: Guid(9939c697888121748970a0175cb825bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/A/Materials/No Name.mat using Guid(9939c697888121748970a0175cb825bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3b5ef9aa205a09aeb2448fe04e751cf4') in 0.0045651 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74d88dc3ad165c0ad37cc8f96547dd17 DependenciesID=5ab615f1ba3ab749d17eeca5d4767800 StaticDependenciesID=0731a544be70c515982a0bffa7548af7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/prefab/Left Hand.prefab
+  importAddress: Guid(4f1b55bf95a99004f9593167eb610cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Left Hand.prefab using Guid(4f1b55bf95a99004f9593167eb610cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4c8874d21fcca06864c737998a9b988d') in 0.0139144 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8d465afab882748ae3af6a3e4e3d4ea DependenciesID=d3601af6250783ad12a93f9410e61678 StaticDependenciesID=331ac550ab8fdfc9797aed7c1d2e6132 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/A/Materials/No Name.mat
+  importAddress: Guid(bab1c788984469545926ac327a3da88d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/A/Materials/No Name.mat using Guid(bab1c788984469545926ac327a3da88d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '154886abf59f2c759d068abe24f5f3e9') in 0.0048584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e97668b073cca381d343066dfaed6097 DependenciesID=dccf8c09930ff40af2611528828999e3 StaticDependenciesID=69eef521aaf214141d3577f27a7475a5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Materials/Flat Blue.mat
+  importAddress: Guid(91ff3830fc4055a4fb0d0d2be32101a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Materials/Flat Blue.mat using Guid(91ff3830fc4055a4fb0d0d2be32101a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '97bddc0929d12a7c7e748a8163362cf2') in 0.0049191 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ff12f7a7e46602afbefb9c6ef72e9f6 DependenciesID=7301f4cd3dce571dc4f834713e9372b7 StaticDependenciesID=4b3ffcff0084c898909ecfe5ad035c48 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/AffordanceThemes/PokeSphereColor.asset
+  importAddress: Guid(fc690d1505c48cb4696838b71abd2ca0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/AffordanceThemes/PokeSphereColor.asset using Guid(fc690d1505c48cb4696838b71abd2ca0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '230b1993a942c1ad1151db915a940ec2') in 0.0041633 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2cfe7398a3e9e8feb947882fb71e5508 DependenciesID=041eac13021ad5cecfe49a83879ec434 StaticDependenciesID=114a02f7be547ef5786f2ffbf14295b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/E/SM_RockWall_E.fbx
+  importAddress: Guid(abc00000000001118359829065814557) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/E/SM_RockWall_E.fbx using Guid(abc00000000001118359829065814557) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/E/SM_RockWall_E.fbx)
+ -> (Import Result ID: '0f17dd2330db028f76910024e69e23bc') in 0.0105854 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73240ebcbd130c84b9ce0b1f2c0a8b53 DependenciesID=595be8678af7f0d4d072a8f03aa3b7bd StaticDependenciesID=03415d9bb3893dd1cfad7ccba3fcd854 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Ground_A.prefab
+  importAddress: Guid(abc00000000005823514002359406168) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Prefabs/SM_Ground_A.prefab using Guid(abc00000000005823514002359406168) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c821354a44087e1214de1d20abd7eff') in 0.0057282 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3257f05b23f4e291e31d9175ed785fd0 DependenciesID=bfc231d3faa05367dbbf371380d97477 StaticDependenciesID=347353b63d4ca39ec79f5c2c8819102a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/Interactables Sample.prefab
+  importAddress: Guid(6821e1b7f44d8c44b8a2ba02f37309d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Prefabs/Interactables Sample.prefab using Guid(6821e1b7f44d8c44b8a2ba02f37309d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f98b1c0ab02e9e0ece1ce2245c18ff44') in 0.0065828 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e2bfa736e86dc79dba1849eb9d917c7 DependenciesID=52c917a55446c2d73ecc5f213ab4ccc6 StaticDependenciesID=8e1af8ef2832561fabda0b3dd72ec79b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 68
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Shaders/UI-NoZTest.shader
+  importAddress: Guid(a661e7516de55c047905f40ca76fe701) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Shaders/UI-NoZTest.shader using Guid(a661e7516de55c047905f40ca76fe701) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '512ccde643683c20408c7d5c23d3bd66') in 0.0046749 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b42508df975f754f40efff2de7956236 DependenciesID=558c0d4d332ee1833233bcb746133fc0 StaticDependenciesID=4ef6ba3a8d36cc4666016f7f513ef75e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Materials/Controller_White.mat
+  importAddress: Guid(9f12d299d16099343a3c5c0d7285822a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/Materials/Controller_White.mat using Guid(9f12d299d16099343a3c5c0d7285822a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6f1a3f27997545c4fe482ae2361630c4') in 0.0577435 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1fba68db40b29eaa8934df56002cc9f5 DependenciesID=377575c6695032e659747d8aec7ad6bc StaticDependenciesID=e8cf110df36bfa4c568a503fa73b151c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Models/MediumChamber_01.fbx
+  importAddress: Guid(669ea818145d0424cb128d93f1ee7981) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Models/MediumChamber_01.fbx using Guid(669ea818145d0424cb128d93f1ee7981) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a1ca678bc6d6c6b87beab0047c904b13') in 0.0151947 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46d822048241b4d587c98a3648b71870 DependenciesID=68ad664a7acd6304f2e86fbb47c00ab0 StaticDependenciesID=fcaf694fb0f97ebb175b40a6c0ddbe40 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/G/M_StonePlate_G.mat
+  importAddress: Guid(abc00000000010026213581158072013) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/G/M_StonePlate_G.mat using Guid(abc00000000010026213581158072013) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '47cd6a4243505c64dbdef572add1c80d') in 0.1428693 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=977d8d878ebae7e0f66e6c1053696759 DependenciesID=f2bd989daa4f1441c828489e0440c889 StaticDependenciesID=2a27e15613fa110921c18aea9061c752 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TripoModels/ancient_chinese_statue_3d_model_3/ancient_chinese_statue_3d_model_3.fbm/ancient_chinese_statue_3d_model_metallic_Smoothness.png
+  importAddress: Guid(073a4535ec25c7f4ba2bf191ae1a4e71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TripoModels/ancient_chinese_statue_3d_model_3/ancient_chinese_statue_3d_model_3.fbm/ancient_chinese_statue_3d_model_metallic_Smoothness.png using Guid(073a4535ec25c7f4ba2bf191ae1a4e71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2e8af0a077b596feacf6e0272f7168e4') in 0.0128365 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc0e0bce76caa1bd4f7fd1389114f40a DependenciesID=50693d9481a5a81f01465cf26eba0023 StaticDependenciesID=d37d87e9839a35566a2d53a160cff80a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

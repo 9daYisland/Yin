@@ -11,6 +11,7 @@ public class IgnitableObject : MonoBehaviour
     [SerializeField] private bool canIgniteOnlyOnce = true;
 
     private bool isIgnited;
+    public bool IsIgnited => isIgnited;
 
     private void Start()
     {
@@ -53,6 +54,7 @@ public class IgnitableObject : MonoBehaviour
 
         isIgnited = true;
 
+        Debug.Log($"[IgnitableObject] {name} “—µ„»º°£");
         foreach (GameObject fireObject in fireObjects)
         {
             if (fireObject != null)

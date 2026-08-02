@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 312}
   m_MaxSize: {x: 10000, y: 10000}
@@ -1968,7 +1968,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/prefab
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1978,7 +1978,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 81
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/prefab
   m_LastFoldersGridSize: 81
   m_LastProjectPath: D:\Yin
   m_LockTracker:

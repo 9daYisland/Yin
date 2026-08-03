@@ -1,0 +1,580 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.6f1 (0b051c2e5d54) revision 722204'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 32212 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490" at "2026-08-02T23:36:36.952813Z"
+Date: 2026-08-02T23:36:36Z
+
+COMMAND LINE ARGUMENTS:
+D:\unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+D:/Yin
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+2613
+-licensingIpc
+LicenseClient-15490
+-force-d3d12
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Yin
+D:/Yin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [6456]  Target information:
+
+Player connection [6456]  * "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 3374662215 [EditorId] 3374662215 [Version] 1048832 [Id] WindowsEditor(7,9daY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6456] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6456] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 27.36 ms, found 10 plugins.
+Initialize engine version: 6000.4.6f1 (0b051c2e5d54)
+[Subsystems] Discovering subsystems at path D:/unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Yin/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Laptop GPU (ID=0x2d58)
+    Vendor:          NVIDIA
+    VRAM:            7891 MB
+    App VRAM Budget: 7123 MB
+    Driver:          32.0.15.9608
+Initialize mono
+Mono path[0] = 'D:/unity/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002002 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-15490"
+[Licensing::IpcConnector] LicenseClient-15490 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490-6000.4.6" at "2026-08-02T23:36:39.2935935Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 36380, path: "D:/unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              5360c6bce4334fdb875b10b22670ffdc
+  Correlation Id:          8f132c48ba833a145d04de9bbedf03ed
+  External correlation Id: 4630724946749942599
+  Machine Id:              DJWBFtPZt+einrVuex0hynKXsRc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-15490-6000.4.6" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490-6000.4.6-notifications" at "2026-08-02T23:36:39.3072059Z"
+[Licensing::Module] Licensing Background thread has ended after 2.35s
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.429 seconds
+Domain Reload Profiling: 1120ms
+	BeginReloadAssembly (248ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (247ms)
+		AnalyzeDomain (293ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (268ms)
+	FinalizeReload (430ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5773964460127-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 10.76 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 10.84 ms, found 10 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.323 seconds
+Domain Reload Profiling: 2447ms
+	BeginReloadAssembly (283ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (679ms)
+		LoadAssemblies (537ms)
+		AnalyzeDomain (319ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (212ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1323ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (688ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 10.12 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7694 unused Assets / (6.8 MB). Loaded Objects now: 8541.
+Memory consumption went from 179.7 MB to 172.8 MB.
+Total: 12.838500 ms (FindLiveObjects: 1.155900 ms CreateObjectMapping: 1.043200 ms MarkObjects: 6.040700 ms  DeleteObjects: 4.596000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33551.104522 seconds.
+  path: Assets/mesh/未烧裂甲骨/Meshy_AI_Turtle_shell_fragment_0801173027_texture_fbx/Meshy_AI_Turtle_shell_fragment_0801173027_texture_roughness.png
+  importAddress: Guid(f0988de10ba2f834a96dc1a12f25149f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/mesh/未烧裂甲骨/Meshy_AI_Turtle_shell_fragment_0801173027_texture_fbx/Meshy_AI_Turtle_shell_fragment_0801173027_texture_roughness.png using Guid(f0988de10ba2f834a96dc1a12f25149f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '477810149f53ed80d8ecc1a69c168485') in 0.1178275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9112b0a77ec8b3a6130e2c1e69ca9744 DependenciesID=f6297d052344ae520e06bda652177879 StaticDependenciesID=ba8dd5fe58f4dea717e28001f21e5ef1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_disp_4k.png
+  importAddress: Guid(1f47f459d76b8ae48b10cb2d06034428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_disp_4k.png using Guid(1f47f459d76b8ae48b10cb2d06034428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9a2f5730541665936d7d6d5957d2385a') in 0.0273791 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4631b7fa3d6e5d6745525f926013b1bb DependenciesID=645df2bcd97fe78b88edf6251e174ea0 StaticDependenciesID=4143171d2c77f7d898b0d830690f76f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ian's Fire Pack Universal/Textures/shimmer.png
+  importAddress: Guid(c4864a9d27cc1431496f9d1aa5eb33c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Ian's Fire Pack Universal/Textures/shimmer.png using Guid(c4864a9d27cc1431496f9d1aa5eb33c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f59234c2c3d6d851de8a357a712f2b1b') in 0.008526 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d6b4274d8c6632ba83a83216bea1301e DependenciesID=39f5d135f77a5ad0c5b08f56e2a15644 StaticDependenciesID=876bb65d18107ed8f297423fd102c906 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/fog/Demo Assets/Unity Companion License/Particle Pack/Materials/Dust.mat
+  importAddress: Guid(0227585ad08c3da4ab3286a2f78d42f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/fog/Demo Assets/Unity Companion License/Particle Pack/Materials/Dust.mat using Guid(0227585ad08c3da4ab3286a2f78d42f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1bf695a85bf564ccd2260c5ad915642a') in 0.0345841 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48ec504fabdb1859392a1ff1145b265c DependenciesID=402ee21766bc1e20e2c6a55fddfc227b StaticDependenciesID=40e26328a15024beaae03d143731ff99 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  importAddress: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '153f0f2c92e7d7c488542788ee6d8f04') in 0.0080853 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=492fd42a2649e184874860e329eb2026 DependenciesID=f825658a74829254c0f2c0629933d5bc StaticDependenciesID=fc7b77840337b8921620e800bb6e7ccb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ian's Fire Pack Universal/_URP Specific/Shaders/Overlay-URP.shadergraph
+  importAddress: Guid(9f1e5d75284dd42f7aad68678a7b44cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Ian's Fire Pack Universal/_URP Specific/Shaders/Overlay-URP.shadergraph using Guid(9f1e5d75284dd42f7aad68678a7b44cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c24860627514dbbf08b6a4413d111c24') in 0.0383977 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9ef4c90b7968f3aaa99af8452b3cf80 DependenciesID=411ae0613384b39b6f047fa1c069c3f3 StaticDependenciesID=c916e122e71ac374da7ec4ab41fa287c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/BefourStudios/AsianDynastyEnvironment/Art/Shaders/S_Foliage.shadergraph
+  importAddress: Guid(f466a61af05081647a0192c38ca20ca8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BefourStudios/AsianDynastyEnvironment/Art/Shaders/S_Foliage.shadergraph using Guid(f466a61af05081647a0192c38ca20ca8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2e4f6d436588e3aa3adc7c4d8df5dd66') in 0.0102747 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=064e3a65e2585c8bfb3c34ce8dd29342 DependenciesID=b01bda240ccde3e9fe017ed47ad11679 StaticDependenciesID=86e4f221b478a85a79ac79dc0046fe4e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/materials/New Material 6.mat
+  importAddress: Guid(fa032119a23621b47b6b065699fbfadb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/New Material 6.mat using Guid(fa032119a23621b47b6b065699fbfadb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1738725383768d85b3c98f459bc317df') in 0.0086041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a8eee0c302671a09311e651ee37ee34 DependenciesID=66d7cf739c3a42dffcdf13fbabf62640 StaticDependenciesID=c0802db4ca0421d22d4ac550bc5d4874 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ian's Fire Pack Universal/Textures/Torch_Normal.png
+  importAddress: Guid(eef49cf9079f54a6db0286dbb4a95d5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Ian's Fire Pack Universal/Textures/Torch_Normal.png using Guid(eef49cf9079f54a6db0286dbb4a95d5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1ba07eaab9f4a915a88c883a5815c7cc') in 0.0070931 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=51ddebf0c71f565ec817ba68381a2180 DependenciesID=27348609bc6e77dea2f5dfad8093b53b StaticDependenciesID=a6a79c70358f08e359cabce048b85b19 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/materials/rock_moss_set_02_diff_4k.mat
+  importAddress: Guid(a788a3d049966784b9094894028749c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/rock_moss_set_02_diff_4k.mat using Guid(a788a3d049966784b9094894028749c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9913ddb43f75641e8592785352ea64f1') in 0.0100316 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a63b0d36f9f080a182fc06381b7f91f DependenciesID=d2013c07c03df891fb39c0efaf2a8f88 StaticDependenciesID=8033f747f4b1b2805aa39916ed246392 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/audio/齐声.WAV
+  importAddress: Guid(cf304681e2abc314bacd24d77d7d40bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/audio/齐声.WAV using Guid(cf304681e2abc314bacd24d77d7d40bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b1363bfeecd5227cb439aec424c0c3cf') in 0.0104719 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6591310c95ab0658cc5ad8dba9f08127 DependenciesID=1b72307ff0ed052325c5297f3d656929 StaticDependenciesID=9c199a5a3b292d8a7b130e1dd2f03ffb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BefourStudios/AsianDynastyEnvironment/Art/Textures/T_BazaarProps_Normal.png
+  importAddress: Guid(abc00000000000005937315632056205) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BefourStudios/AsianDynastyEnvironment/Art/Textures/T_BazaarProps_Normal.png using Guid(abc00000000000005937315632056205) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '93a2f1545325b1bc2da3b8772d77c302') in 0.0278721 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ca2e367f37e8be61a9e31bc469f0965 DependenciesID=afc35a3b6fe29328f843848727e7521a StaticDependenciesID=753b3b378a6cebb932490828742565a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/materials/New Material.mat
+  importAddress: Guid(fa56594ba3d7fa4449c97a90259b4e9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/New Material.mat using Guid(fa56594ba3d7fa4449c97a90259b4e9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0d2fee8f28bb97802328004d0fd39877') in 0.00689 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8451c2d888dcade6e40440a512a5c132 DependenciesID=c746fe34b9b0311c7c873a3aa93429b2 StaticDependenciesID=e16cf8270ad74d5e209bce86012daf07 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ian's Fire Pack Universal/Textures/Particles/SmokePuff.png
+  importAddress: Guid(27c08d2f9e146496dbc4309bf62b6491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Ian's Fire Pack Universal/Textures/Particles/SmokePuff.png using Guid(27c08d2f9e146496dbc4309bf62b6491) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9ffdb73c3b4ce04d5ebee84e606730ae') in 0.0090993 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c46ecb336815b2525af66a08a8f047c5 DependenciesID=add2be2ed7a61bd535bc1208c21f8edb StaticDependenciesID=86095458a94e64e6dcd59dbf5ca653f3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/玄鸟火盆.fbx
+  importAddress: Guid(acd15c0be49238a4a99a9b311c65aa27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/玄鸟火盆.fbx using Guid(acd15c0be49238a4a99a9b311c65aa27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b52012ca05dfa1aa6bd7ad8f5a01c9e4') in 0.0675876 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9942ba5d18390ad9c115e68912fcbe76 DependenciesID=9db343e362a72201da555b196195c8a0 StaticDependenciesID=e7450e9e3e0d2a96ff7c0df5ce722379 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/animations/妇好站着.fbx
+  importAddress: Guid(3701281dae25df440a577cca3652c894) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/妇好站着.fbx using Guid(3701281dae25df440a577cca3652c894) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9c8af56766dcca1f2f977abbbe60d177') in 0.0168789 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=364ef02757f24a2908a3b302e8e490bc DependenciesID=848586db6024fa28a3017fea61f3181b StaticDependenciesID=171ea3fd500075539f121fb3929fa052 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/mesh/烧裂甲骨/Meshy_AI_Cracked_Marble_Bust_0801173147_texture_fbx/Meshy_AI_Cracked_Marble_Bust_0801173147_texture_roughness.png
+  importAddress: Guid(7ddfefe18a6f7f144a9ca25038d7ff48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/mesh/烧裂甲骨/Meshy_AI_Cracked_Marble_Bust_0801173147_texture_fbx/Meshy_AI_Cracked_Marble_Bust_0801173147_texture_roughness.png using Guid(7ddfefe18a6f7f144a9ca25038d7ff48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1ca858f94d97c66b12e88abbba1af84d') in 0.0115958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=210001d076cd96d9c8d21f1ca873bb6f DependenciesID=bcb42a305ea2ef6fa31f469501a4f474 StaticDependenciesID=ed91ae03eaacd7ebef27a40a794af06e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/XR/Animated Hands/Models/r_hand_skeletal_lowres.fbx
+  importAddress: Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/XR/Animated Hands/Models/r_hand_skeletal_lowres.fbx using Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fece026e0ecc37cba1796f422fac22ec') in 0.0198219 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fcacbb3015d31a04bb99ae30d89693f2 DependenciesID=05fd7620849e56e78ec7d1a452f6aa5d StaticDependenciesID=e78951778fbc5c3cc4fcbaa5b66ab890 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/68ba0a1b971d9ed461c47c1b10bf16d2.jpg
+  importAddress: Guid(4bdf1679be6b3c24fa33137c0aebf77a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/68ba0a1b971d9ed461c47c1b10bf16d2.jpg using Guid(4bdf1679be6b3c24fa33137c0aebf77a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3b1432a113ff2be0277628cb16731993') in 0.0093404 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9b170e91ce159ad36cecd115583f294 DependenciesID=fd125bbc07ea42abdadff6b8db510562 StaticDependenciesID=1e9b2f4e83e747c6d60feacdbd3682b5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/布条.fbx
+  importAddress: Guid(09c8deba2e975c14691d1e54acb9bb30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/布条.fbx using Guid(09c8deba2e975c14691d1e54acb9bb30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0bf4cb0cf515b690e93cbac03c35055d') in 0.0333904 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0eac990750077e8f79f0a6708d9f2009 DependenciesID=03307f9ea48006a096dc2760711a4889 StaticDependenciesID=eaadee303bc8d56ea12bfd8e92f67316 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ian's Fire Pack Universal/Textures/Particles/TorchFlame.png
+  importAddress: Guid(9045335e51f7f4dd7a71ff246131985b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Ian's Fire Pack Universal/Textures/Particles/TorchFlame.png using Guid(9045335e51f7f4dd7a71ff246131985b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7d278a97a8d544c26f4425c605957e76') in 0.0105707 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9483c47a5b87e437334587a1b34f4b79 DependenciesID=27dbd2b42a02ce3f33eca1a0b946f8ef StaticDependenciesID=bf05149ab53037dd4e4f4f4162e51f0c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scenes/tomb1.fbx
+  importAddress: Guid(589117fb677d81448bff3275eacb2d08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/tomb1.fbx using Guid(589117fb677d81448bff3275eacb2d08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '13c861d72f508da596e2730e69f19508') in 0.4020767 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9110382544b3a487cece9a58e4fe4938 DependenciesID=130a7457ff378f96a4344ee5f1d16f22 StaticDependenciesID=693a8dcb50c90c4753a5817e3ede17b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 610
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BefourStudios/AsianDynastyEnvironment/Art/Materials/M_TreeBillboard.mat
+  importAddress: Guid(d20d4bc1a92c65b46b43b4ef10113046) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BefourStudios/AsianDynastyEnvironment/Art/Materials/M_TreeBillboard.mat using Guid(d20d4bc1a92c65b46b43b4ef10113046) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c538fb918565bcb57d5c23e2fb4d5e89') in 0.0097726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5fbe7e76b9c44c89777fb1e14e127b5f DependenciesID=d643983a80503a7aeeae17b160c6ec8b StaticDependenciesID=b96b8c9664e59ed98ed65f94301c9329 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Ian's Fire Pack Universal/Textures/EmberPileNormal.png
+  importAddress: Guid(0488a3b36caae4a03be44b7fb65173b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Ian's Fire Pack Universal/Textures/EmberPileNormal.png using Guid(0488a3b36caae4a03be44b7fb65173b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '579c63a3cacf1db67ce82eecad287640') in 0.0090928 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d30607f3a2bebf22c0209aeae6c2c96f DependenciesID=29ce07754c5e31652a6c0f2355531634 StaticDependenciesID=23a3267b4f57e4a5a176843cc7612a51 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/materials/New Material 1.mat
+  importAddress: Guid(663fa6a5fe0552f4eae8efacba2a819d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/New Material 1.mat using Guid(663fa6a5fe0552f4eae8efacba2a819d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9caa90d1692a1e463fac4e85b5f1d6bc') in 0.0100339 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff6618ae65cf37a041b7c1f79537adb7 DependenciesID=c54e978faaa2f3508fac503adedc4335 StaticDependenciesID=e5de483baf24d6242e89955bf0bec269 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/audio/妇好12（3）.wav
+  importAddress: Guid(f3fbdb66c2ceaa247a3cc1dae1a7e007) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/audio/妇好12（3）.wav using Guid(f3fbdb66c2ceaa247a3cc1dae1a7e007) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '60b1ae121aca6fd9b38d351cecd42304') in 0.0055489 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6748d9a51db6e8b48538fff001edf179 DependenciesID=5141dbf219918965cc5786a2d16d16ac StaticDependenciesID=387ef72ff68bbf20d1825602ba4bca20 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BefourStudios/AsianDynastyEnvironment/Art/Textures/T_TreeBark_Normal.png
+  importAddress: Guid(abc00000000008435835078370501336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BefourStudios/AsianDynastyEnvironment/Art/Textures/T_TreeBark_Normal.png using Guid(abc00000000008435835078370501336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f5266ba8615b8df214d14c19367f932e') in 0.0121129 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e936735af1a1fb0dfc7f2a453e88ac73 DependenciesID=dd673a7a0a0411a6a3d7b28d0474703e StaticDependenciesID=60706e99eefa652fd382278fb8b58c27 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/宗庙布.fbx
+  importAddress: Guid(212e0a83380c6a24abe68b3d2ad2884e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/宗庙布.fbx using Guid(212e0a83380c6a24abe68b3d2ad2884e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)d3d12: upload buffer was too small for the requested resource! Size: 16777216. Requested: 37332480.
+ -> (Import Result ID: '6032ca7b956c999f997ea23c01d0edd7') in 0.067587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=511f0ad64b3652b20975dd50e8035a85 DependenciesID=0b9378061eaf58163ec4b80c1c81f138 StaticDependenciesID=4c5c7ad7515c73b68584fda0fd61e165 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/animations/npc@Kneeling Down.fbx
+  importAddress: Guid(994fb65aee18b8b4a9a5b45c6f085acd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animations/npc@Kneeling Down.fbx using Guid(994fb65aee18b8b4a9a5b45c6f085acd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6bdca05ee89b76ce97ec3b40a2f86005') in 0.0143102 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71b22d7934974611a27bed4bbca08a29 DependenciesID=96770c1435b9e6e7d2fa7a8cc650955e StaticDependenciesID=397bf8fe7db9421a312c24204180434f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/巫22222.fbx
+  importAddress: Guid(d373075b49e13aa4fb5e14e880708f86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/巫22222.fbx using Guid(d373075b49e13aa4fb5e14e880708f86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e8d36e4eabea1a74a7dd9018680a6369') in 3.4153047 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=824f8a8622d468d35f5c51570cbfbf39 DependenciesID=182d79b12d1b31579d5e2257a59792ac StaticDependenciesID=ed4d31c142be2ae5d77e06a8b04fca59 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22809
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.168721 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/FirePit/FireWood/M_FireWood_01.mat
+  importAddress: Guid(abc00000000008185406077641709850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/FirePit/FireWood/M_FireWood_01.mat using Guid(abc00000000008185406077641709850) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '98381d74d890ec1fed0aac5cc114b641') in 1.1479977 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ea341bc49b9d5e6433f7ebccbd1c232 DependenciesID=4901ca9966fda9080641a92e3918d20a StaticDependenciesID=13122f4770414ce000fb8be9832c92ea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/plywood/plywood_nor_4k.png
+  importAddress: Guid(3ebcf2da2302cbd4a9acce2f65a5ad26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/plywood/plywood_nor_4k.png using Guid(3ebcf2da2302cbd4a9acce2f65a5ad26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fcb8e7e13e4bd2db79971c0bea7722c4') in 0.0426143 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eae4612bc52b3b9fccd0450feb5bc9d7 DependenciesID=cbd5a6ebb9a9ce31049f8729ae5212d7 StaticDependenciesID=70a52df0b470c780be212fe51ee39323 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/FirePit/FireWood/SM_FireWood.fbx
+  importAddress: Guid(abc00000000001559304550889893295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/FirePit/FireWood/SM_FireWood.fbx using Guid(abc00000000001559304550889893295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/FirePit/FireWood/SM_FireWood.fbx)
+ -> (Import Result ID: '882fbc3103423dde5d0b68c24f5cc26c') in 0.1342675 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=babbdd960b96942d0f0706a9d573e2d7 DependenciesID=ccc4e2d0d79d2fcaeef654e1d30cae72 StaticDependenciesID=141d98870cd3e629b01948369ba7ec80 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Vinewood_AORD.png
+  importAddress: Guid(abc00000000002669979532411679979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Vinewood_AORD.png using Guid(abc00000000002669979532411679979) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7a0f75fe8eddbb76697c5f8418c0a9a4') in 0.0180306 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e8fde4c26f0aa1dee8c375793aedaef DependenciesID=29a7e1232778bd6b80a12518a4ef9d52 StaticDependenciesID=4322994d3687f9cfbc05688bb2ea1985 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/Materials/MI_Vinewood.mat
+  importAddress: Guid(7022170f5bdf3cd47b2ba030ea67bcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/Materials/MI_Vinewood.mat using Guid(7022170f5bdf3cd47b2ba030ea67bcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4bb33b5882a2fb8456c25360d66a2a6a') in 0.0147296 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ee40e0f2bb02aeabcf9c104348f371a DependenciesID=ff0cef864de0837dee700144e38ba48f StaticDependenciesID=0a80b9e68b8d60d9cbfd1a5327d758fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_FireWood_BC.png
+  importAddress: Guid(abc00000000000551414953042338107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_FireWood_BC.png using Guid(abc00000000000551414953042338107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '61dc22afb0e3b2fc210e28b9711c0b5d') in 0.0083714 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c82b93d201d886a6649eded04c49cc8c DependenciesID=c0212a841c697a41c1ae36f430d59591 StaticDependenciesID=ea964f3586abeab840afd8dc7dd1aa76 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_FireWood_E_002.png
+  importAddress: Guid(abc00000000018155344380402586728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_FireWood_E_002.png using Guid(abc00000000018155344380402586728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bf010f139ba8a0478543ba2028a32548') in 0.0082118 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=908098bf8002fe62bd9aba5dcd4e8201 DependenciesID=ba164102b871e4a4164947d89da47003 StaticDependenciesID=83391bf33089776a832461c40c5d934a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_materials/plywood.mat
+  importAddress: Guid(6c2e8932192383d4b98056699c215775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_materials/plywood.mat using Guid(6c2e8932192383d4b98056699c215775) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e669423b1915ce91554bf5f9c58328b6') in 0.0473525 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a171e7d675ab1c9366fff58d1ecf4628 DependenciesID=02ce6d6acc1fb62dd7f18c35e830374b StaticDependenciesID=44635e9d82b972101d71744e1aecf603 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_FireWood_E_003.png
+  importAddress: Guid(abc00000000004847866044431199451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_MI_FireWood_E_003.png using Guid(abc00000000004847866044431199451) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7de4b793e31d124577a8c9bad6af5c2e') in 0.0088732 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d37240ec361e25049c573d57015a5c1 DependenciesID=aa769151ae55bfbc860d3f8182036ba3 StaticDependenciesID=bbf70e18fdf55c000644828cae664dbf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/plywood/plywood_ao_4k.png
+  importAddress: Guid(94b4bab11fac6ce4c94a04f73f131041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/plywood/plywood_ao_4k.png using Guid(94b4bab11fac6ce4c94a04f73f131041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cd69db2c0ceec24eb3b0a886ce7c9a80') in 0.0125178 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7110bef3ea5458d2acc27edadce5dd5 DependenciesID=04b611558f3913774733d81c4e6302fe StaticDependenciesID=69b3cffcdf7a67e1e7f076c28e9bcc10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

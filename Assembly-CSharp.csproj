@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{01F4BD65-90EF-1AD9-7477-6FA13BBB075A}</ProjectGuid>
+    <ProjectGuid>{180F446B-11E4-6C18-ADAF-6564AEAB816A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,17 +62,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Ian&apos;s Fire Pack Universal\Scripts\TileAnimation.cs" />
+    <Compile Include="Assets\Scripts\FireCrackTrigger.cs" />
+    <Compile Include="Assets\Script\TimelineSceneLoader.cs" />
+    <Compile Include="Assets\fog\Demo Assets\INab Studio\Scripts\Highlighters\TestSceneManager.cs" />
     <Compile Include="Assets\Scripts\GazeBurn.cs" />
     <Compile Include="Assets\XR\Animated Hands\AnimateHandOnInput.cs" />
     <Compile Include="Assets\Ian&apos;s Fire Pack Universal\Scripts\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeTarget.cs" />
+    <Compile Include="Assets\fog\Post Processing Assets\Better Fog\Core\Scripts\BetterFogRenderers.cs" />
+    <Compile Include="Assets\Scripts\OracleBoneCrack.cs" />
+    <Compile Include="Assets\fog\Demo Assets\INab Studio\Scripts\FloatingCoin.cs" />
+    <Compile Include="Assets\fog\Post Processing Assets\Better Fog\Core\GradientCreator\Runtime\GradientTexture.cs" />
+    <Compile Include="Assets\fog\Demo Assets\INab Studio\Scripts\Highlighters\Camera_Controller.cs" />
+    <Compile Include="Assets\fog\Demo Assets\INab Studio\Scripts\Highlighters\ObjectOscilate.cs" />
+    <Compile Include="Assets\Scripts\PickupInfoUI.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeAudioAction.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeAction.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeDebugAction.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeUIManager.cs" />
+    <Compile Include="Assets\Scripts\IgnitableObject.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeInteractable.cs" />
     <Compile Include="Assets\Scripts\HandData.cs" />
+    <Compile Include="Assets\fog\Demo Assets\INab Studio\Scripts\Highlighters\FloatingObject.cs" />
+    <Compile Include="Assets\fog\Demo Assets\INab Studio\Scripts\Highlighters\CameraManager.cs" />
+    <Compile Include="Assets\fog\Post Processing Assets\Better Fog\Core\Scripts\BetterFogUtility.cs" />
+    <Compile Include="Assets\fog\Demo Assets\Unity Companion License\StarterAssets\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeUIAction.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1472,11 +1487,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{2DF417EF-4A50-C1D6-1EB0-EBEA22C55626}</Project>
+      <Project>{FF2C407F-F209-C32C-4372-CBFD8AA95D5D}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{F6EDE1F2-35E4-2C16-9C20-3526A8562D1E}</Project>
+      <Project>{233256FF-293D-494F-77FA-4A5FCDC6C32E}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>

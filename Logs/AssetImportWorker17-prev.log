@@ -1,0 +1,637 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490" at "2026-08-02T23:45:56.3467194Z"
+Built from '6000.4/staging' branch; Version is '6000.4.6f1 (0b051c2e5d54) revision 722204'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 32212 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-02T23:45:56Z
+
+COMMAND LINE ARGUMENTS:
+D:\unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker17
+-projectPath
+D:/Yin
+-logFile
+Logs/AssetImportWorker17.log
+-srvPort
+2613
+-licensingIpc
+LicenseClient-15490
+-force-d3d12
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Yin
+D:/Yin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [40764]  Target information:
+
+Player connection [40764]  * "[IP] 192.168.1.112 [Port] 0 [Flags] 2 [Guid] 2768986179 [EditorId] 2768986179 [Version] 1048832 [Id] WindowsEditor(7,9daY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [40764] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [40764] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 23.04 ms, found 10 plugins.
+Initialize engine version: 6000.4.6f1 (0b051c2e5d54)
+[Subsystems] Discovering subsystems at path D:/unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Yin/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Laptop GPU (ID=0x2d58)
+    Vendor:          NVIDIA
+    VRAM:            7891 MB
+    App VRAM Budget: 7123 MB
+    Driver:          32.0.15.9608
+Initialize mono
+Mono path[0] = 'D:/unity/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001535 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 990ms
+	BeginReloadAssembly (160ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (160ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (227ms)
+	FinalizeReload (438ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-15490"
+[Licensing::IpcConnector] LicenseClient-15490 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490-6000.4.6" at "2026-08-02T23:45:58.458301Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 36380, path: "D:/unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              4806ea02ad0046a0a2f6f1ede80b0773
+  Correlation Id:          8f132c48ba833a145d04de9bbedf03ed
+  External correlation Id: 2114257744236553621
+  Machine Id:              DJWBFtPZt+einrVuex0hynKXsRc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-15490-6000.4.6" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490-6000.4.6-notifications" at "2026-08-02T23:45:58.4717389Z"
+[Licensing::Module] Licensing Background thread has ended after 2.13s
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5773964460127-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 7.25 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 7.96 ms, found 10 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.131 seconds
+Domain Reload Profiling: 2102ms
+	BeginReloadAssembly (219ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (622ms)
+		LoadAssemblies (419ms)
+		AnalyzeDomain (322ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (206ms)
+			BuildScriptInfoCaches (71ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1132ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 9.02 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7694 unused Assets / (6.5 MB). Loaded Objects now: 8541.
+Memory consumption went from 179.3 MB to 172.8 MB.
+Total: 12.613700 ms (FindLiveObjects: 1.205400 ms CreateObjectMapping: 0.975300 ms MarkObjects: 6.397500 ms  DeleteObjects: 4.030100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34109.223811 seconds.
+  path: Assets/materials/Meshy_AI_Calligraphic_Butterfl_0704065726_generate.fbx
+  importAddress: Guid(4ff93dcf6f4cca84aa7e9469be0e1809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/Meshy_AI_Calligraphic_Butterfl_0704065726_generate.fbx using Guid(4ff93dcf6f4cca84aa7e9469be0e1809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7f2f9a8398c18c0e6b1187850098288e') in 0.607059 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa98379c84046e3e59d049974390d696 DependenciesID=8762f377823257324340de0a8a520cdd StaticDependenciesID=09ea9189a753bd877585ac1714739f1c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SunboxGames/ModularDungeonCaves/Models/CavePlatforms_01.fbx
+  importAddress: Guid(a453ed13c61560a48bc7b19defa96c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SunboxGames/ModularDungeonCaves/Models/CavePlatforms_01.fbx using Guid(a453ed13c61560a48bc7b19defa96c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7decf4076989029bffd0061b4faaea19') in 0.894173 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbc4c793fd1aef32af24cf963e214b8b DependenciesID=da7eb9eb9f5c663f03f50dafc9b2b293 StaticDependenciesID=209cfed6f47aa45c04e4fd878599bbb8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx
+  importAddress: Guid(20be25aac4e22ee49a7db76fb3df6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx using Guid(20be25aac4e22ee49a7db76fb3df6de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a8f61c074575ac34b0d5c33ff7557b6c') in 0.0153163 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eddeaa757762883153dd9a755e5e037b DependenciesID=2c87b95c24634675f45f67a9845e2bdd StaticDependenciesID=d77bb95a1aae34e8f57c4788a01391fe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Sculpt/B/SM_Sculpt_B.fbx
+  importAddress: Guid(abc00000000014009619472119612501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Sculpt/B/SM_Sculpt_B.fbx using Guid(abc00000000014009619472119612501) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Sculpt/B/SM_Sculpt_B.fbx)
+ -> (Import Result ID: 'f519cd1e41e599a365278847c82b110b') in 0.101653 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=023334ae14b254704f5b0af922e6b61b DependenciesID=88920b3c4759ee9b780385886e219f5a StaticDependenciesID=b7b45a5b8a26c7a653fcde36ef45c6a2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePattern/StonePattern/SM_StonePattern_B.fbx
+  importAddress: Guid(abc00000000010875990785200362536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePattern/StonePattern/SM_StonePattern_B.fbx using Guid(abc00000000010875990785200362536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePattern/StonePattern/SM_StonePattern_B.fbx)
+ -> (Import Result ID: '026cccf5bc99d78163d78a63d78b708e') in 0.0978673 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a3463155ddc7bf8b448e274b2069156 DependenciesID=a8b0c6427115a33f4cd8af95f119b0d3 StaticDependenciesID=735fb3c3cf2e8ea41fa69141904188b7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/SM_Vine_D.fbx
+  importAddress: Guid(abc00000000009348621259188360961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/SM_Vine_D.fbx using Guid(abc00000000009348621259188360961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/SM_Vine_D.fbx)
+ -> (Import Result ID: '021762f495d75e37a657b37595ff5c3d') in 0.1012466 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2fdbaef4464d20a35e07bee2146ed38d DependenciesID=c8e19351526a2cc71a9a3de4ee4227bd StaticDependenciesID=d26bf46a09b53b4b1d7a7a86c4ccbac7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/B/SM_StonePlate_B.fbx
+  importAddress: Guid(abc00000000016478070274254297317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/B/SM_StonePlate_B.fbx using Guid(abc00000000016478070274254297317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/B/SM_StonePlate_B.fbx)
+ -> (Import Result ID: 'dbd1a0cc5fe87952b24d9ba074dbe7e3') in 0.0891353 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9570d995988a896520143b1958113e59 DependenciesID=974d2ae2a6f3dd1a4054da6705085e31 StaticDependenciesID=6af71101c915bac5176a8f27bfe94c54 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/AztecMuralWall/AztecMural/SM_Wall_Aztec_E.fbx
+  importAddress: Guid(abc00000000011522037284801755904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/AztecMuralWall/AztecMural/SM_Wall_Aztec_E.fbx using Guid(abc00000000011522037284801755904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/AztecMuralWall/AztecMural/SM_Wall_Aztec_E.fbx)
+ -> (Import Result ID: '5f6abd724596cc1d80ece6215f4da908') in 0.1050339 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15f5b895a266b16a00cc6b57b36e0111 DependenciesID=5424a0aa5d861724a028e6d7cbfc9946 StaticDependenciesID=cddd3b380865306cded101fd36ff2338 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Arch/B/SM_Arch_B.fbx
+  importAddress: Guid(abc00000000006241803560763834157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Arch/B/SM_Arch_B.fbx using Guid(abc00000000006241803560763834157) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Arch/B/SM_Arch_B.fbx)
+ -> (Import Result ID: 'c01da1c8352a3032964dda33cf75a662') in 0.1091759 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0129103f14689f2e8200020cf758fc0 DependenciesID=7c3faf730986c4a3d81e8f0dc5a8d94d StaticDependenciesID=f9f007f8b58dce4dd411f16cae7d92e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx
+  importAddress: Guid(e51d3dbfe79e4c646bb30424a11f23a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx using Guid(e51d3dbfe79e4c646bb30424a11f23a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '209031ae52a78872aacc888ec1b8feeb') in 1.0379324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db2dc857b81ce597be38ba8910352f16 DependenciesID=0ff87d478e84706229c2aa370fc27798 StaticDependenciesID=cd06e292bc7d7f5075052497324a6e10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/A/SM_Pillar_A.fbx
+  importAddress: Guid(abc00000000007287251103548759205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/A/SM_Pillar_A.fbx using Guid(abc00000000007287251103548759205) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Pillar/A/SM_Pillar_A.fbx)
+ -> (Import Result ID: 'ed0fc21e5bc8ae1d21f9cca2c9b8fbf0') in 0.0797214 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0140182831376470a65d7ba31955eff4 DependenciesID=495d087995675bb0b6a10bbacddcdf74 StaticDependenciesID=7f7fbb1885115c3ec8347d63bbcb44d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TripoModels/stone_king_statue_3d_model/stone_king_statue_3d_model.fbx
+  importAddress: Guid(4495f8c7a97fd6540a04de8f8ac6c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TripoModels/stone_king_statue_3d_model/stone_king_statue_3d_model.fbx using Guid(4495f8c7a97fd6540a04de8f8ac6c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/TripoModels/stone_king_statue_3d_model/stone_king_statue_3d_model.fbx)
+ -> (Import Result ID: '0f3acd5f7f8f183efe3d6b858a5b5e77') in 0.5431712 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92f39daa417c9fc9e86d6ef0b9bb96cd DependenciesID=fb8e1ece31cfb21ecee2e6c67b3c14fb StaticDependenciesID=e73528004c1e1d745625e158f8d9c487 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BefourStudios/AsianDynastyEnvironment/Art/Meshes/SM_Bazaar_Props11.fbx
+  importAddress: Guid(abc00000000003148339630928815110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BefourStudios/AsianDynastyEnvironment/Art/Meshes/SM_Bazaar_Props11.fbx using Guid(abc00000000003148339630928815110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/BefourStudios/AsianDynastyEnvironment/Art/Meshes/SM_Bazaar_Props11.fbx)
+ -> (Import Result ID: '855a3b10b67a0e2a9152eaf8207c2b52') in 0.10094 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3029d9d3eb84c7e71ebb4c19e546926a DependenciesID=ee0ccbc6a07a634a2087cc26ef2a7a03 StaticDependenciesID=6c12378061c4b1cde7f2c7e634eae3f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/A/SM_Stalacite_A.fbx
+  importAddress: Guid(abc00000000007673115996162911383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/A/SM_Stalacite_A.fbx using Guid(abc00000000007673115996162911383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/A/SM_Stalacite_A.fbx)
+ -> (Import Result ID: '79c3b7767bb796050d27d02b84134c57') in 0.0720896 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f1c65dbcad1f6fe6250dc2192067eb94 DependenciesID=cab573a4e8cdacf577a2632b111e7624 StaticDependenciesID=81e8ba45306e03ab0604869d127e6839 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/SM_Vine_B.fbx
+  importAddress: Guid(abc00000000010055368489755414999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/SM_Vine_B.fbx using Guid(abc00000000010055368489755414999) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Vines/SM_Vine_B.fbx)
+ -> (Import Result ID: 'c1c631ef3eb6ee16522eefe50f2ad9fb') in 0.0642951 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb2821846a20fbd1b0168daad0af8e97 DependenciesID=fea98b2d008da1a7b4315c49ba9763cb StaticDependenciesID=9d4f80d586388709ddc5cb66be8d26b7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/C/SM_StonePlate_C.fbx
+  importAddress: Guid(abc00000000010835587504715573061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/C/SM_StonePlate_C.fbx using Guid(abc00000000010835587504715573061) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePlate/C/SM_StonePlate_C.fbx)
+ -> (Import Result ID: 'fcc3d5e96283b7349a005659e182a21f') in 0.0558908 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02e61e58d2ff8ef7c9f2f64b2cea2252 DependenciesID=48c6ee9f72588883a5a5d47d7f0f9e42 StaticDependenciesID=8b2447d6b16a60115af8854b84b58704 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Scanned_Foliage/Foliage/Ivy/Meshes/SM_Ivy_Wall_D.fbx
+  importAddress: Guid(abc00000000018243688747090273515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Scanned_Foliage/Foliage/Ivy/Meshes/SM_Ivy_Wall_D.fbx using Guid(abc00000000018243688747090273515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Scanned_Foliage/Foliage/Ivy/Meshes/SM_Ivy_Wall_D.fbx)
+ -> (Import Result ID: '974cb782fc4581462b01c2625601da7e') in 0.0747605 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b07712993dd23635c7f8f0d96e0f6c52 DependenciesID=3078615e1ada669150cfb27f559c48a2 StaticDependenciesID=14b509b71bd20c18fbe92615942fa2e9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/D/SM_RockWall_D.fbx
+  importAddress: Guid(abc00000000006626494340383589365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/D/SM_RockWall_D.fbx using Guid(abc00000000006626494340383589365) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/RockWall/D/SM_RockWall_D.fbx)
+ -> (Import Result ID: '70c6ec002bddad557055d811e2426761') in 0.0790997 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23957e8b7198e7e3c651df6ccd779695 DependenciesID=be0696d977285b7a83454fb9849af161 StaticDependenciesID=84d2b554b25a29b1786f67ff5ce80dc8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/AztecMuralWall/AztecMural/SM_Wall_Aztec_C.fbx
+  importAddress: Guid(abc00000000005913604250935479498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/AztecMuralWall/AztecMural/SM_Wall_Aztec_C.fbx using Guid(abc00000000005913604250935479498) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/AztecMuralWall/AztecMural/SM_Wall_Aztec_C.fbx)
+ -> (Import Result ID: 'dc2273c7042cc77604f26dae91e80112') in 0.0711468 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f1be95973625cc933df5a0f1b0598752 DependenciesID=2fc943dac090f9c82cd5bccbd0101135 StaticDependenciesID=acb39f05de20110e2cc69e291b82e798 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Scanned_Foliage/Foliage/EagleFern/Meshes/SM_EagleFern_S_01.fbx
+  importAddress: Guid(abc00000000003257824532928157637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Scanned_Foliage/Foliage/EagleFern/Meshes/SM_EagleFern_S_01.fbx using Guid(abc00000000003257824532928157637) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Scanned_Foliage/Foliage/EagleFern/Meshes/SM_EagleFern_S_01.fbx)
+ -> (Import Result ID: 'a51371a9aeaf898654a37511ab3d8fe4') in 0.061224 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23ea16d4747dd1a0779b2774063c9905 DependenciesID=5e09eae43c7a1880b02c5028c64bcd84 StaticDependenciesID=7ac0490c9c3ce8dbf4e382a8d6a556f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePattern/StonePattern/SM_StonePattern_A.fbx
+  importAddress: Guid(abc00000000017696493599505447929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePattern/StonePattern/SM_StonePattern_A.fbx using Guid(abc00000000017696493599505447929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/StonePattern/StonePattern/SM_StonePattern_A.fbx)
+ -> (Import Result ID: 'f5351d4d6168303f6b84eb5c8f1758ea') in 0.0765216 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c014622fafa48150527412e073eee2de DependenciesID=a946ba608ff5b44a9ab7e546b3631ae1 StaticDependenciesID=17031fa43840c9532514821cb13adc81 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Scanned_Foliage/Foliage/EuropeanBeech/Meshes/SM_EuropeanBeech_L_02.fbx
+  importAddress: Guid(abc00000000000424760652055931471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Scanned_Foliage/Foliage/EuropeanBeech/Meshes/SM_EuropeanBeech_L_02.fbx using Guid(abc00000000000424760652055931471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/Scanned_Foliage/Foliage/EuropeanBeech/Meshes/SM_EuropeanBeech_L_02.fbx)
+ -> (Import Result ID: 'b8027fcb2a0117a2d25b8363397a6be9') in 0.0659303 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7bc7e03ecd38311abac53b12c50f156a DependenciesID=56fd47f18dff33ec4d6b010f7d17885c StaticDependenciesID=7a91b0f840287848befe8e8b40555972 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TripoModels/stone_goddess_statue_3d_model/stone_goddess_statue_3d_model.fbx
+  importAddress: Guid(5c11eab9881b3c149929d47459764599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TripoModels/stone_goddess_statue_3d_model/stone_goddess_statue_3d_model.fbx using Guid(5c11eab9881b3c149929d47459764599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a19ae47e6230b906d0904770e0c7d746') in 0.0470015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87e08903b47b4640fdb636e4bac4bb17 DependenciesID=e44ff47c90e91317615e1c112ff57684 StaticDependenciesID=b5bcd9354ee23e9a8419d33a36a4ba8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/FirePit/FirePit_B/SM_FirePit_B.fbx
+  importAddress: Guid(abc00000000000761646776482960499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/FirePit/FirePit_B/SM_FirePit_B.fbx using Guid(abc00000000000761646776482960499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/FirePit/FirePit_B/SM_FirePit_B.fbx)
+ -> (Import Result ID: '40e161d72f724520caa50e27421474e0') in 0.0727324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71a21b4ddb4cd3f94432212f79410a67 DependenciesID=a81e1041033e3a3649bf2b6b6b06f525 StaticDependenciesID=9ac640ede66ff119e0a4547767a4f0a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/B/SM_Stalacite_B.fbx
+  importAddress: Guid(abc00000000000581833867405933809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/B/SM_Stalacite_B.fbx using Guid(abc00000000000581833867405933809) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/Assets/stalactite/B/SM_Stalacite_B.fbx)
+ -> (Import Result ID: '04381f12729d54308576094159dd40a5') in 0.0736102 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fbe818db1305ebb795c1c2946ee6e5d0 DependenciesID=a8e74b9c8a0225ed68bdb3fcfe60833b StaticDependenciesID=d345c9b92736d898ba2c1c65804c2d93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/animation/1_Talking/Talking.fbx
+  importAddress: Guid(a2fbcdf9bca8c7744a20c133752d306f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animation/1_Talking/Talking.fbx using Guid(a2fbcdf9bca8c7744a20c133752d306f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7dd39dd0bea3a6d4d40a3ef6111aba7b') in 0.8317125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3736f9b6fbc07503a4e25a6b28a6a895 DependenciesID=26bbfd3be5c7ac08bbd4f16660647b16 StaticDependenciesID=76f1dd7ec00f51e5d34aaaeb7c282747 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 175
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.803497 seconds.
+  path: Assets/materials/rock_wall_02_4k.blend/textures/rock_wall_02_rough_4k.jpg
+  importAddress: Guid(b5f8febe3aadd0947afc648fe5b2e90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/rock_wall_02_4k.blend/textures/rock_wall_02_rough_4k.jpg using Guid(b5f8febe3aadd0947afc648fe5b2e90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '41dfad24c0dbb4e277fb2012c839f59f') in 0.0165401 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15702ecae2256ff22cd0322dec4cd385 DependenciesID=fee4b1cf1461a3249d07e4deb157f2c8 StaticDependenciesID=33b02720f35c5344a66053ad2435e174 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.117194 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_nor_4k.png
+  importAddress: Guid(fb2ee85ef64178e4e8e1c6d1cb8f8bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_nor_4k.png using Guid(fb2ee85ef64178e4e8e1c6d1cb8f8bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1973f32da11324b097ed086e182c34da') in 0.0295324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=70313a3c94e873a7aeab301d2bc988d6 DependenciesID=e313e736b17af3bc30a03eb20adfe3e3 StaticDependenciesID=c5641da2b426e2f59d099629d196b2e1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.186387 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_nor_4k.png
+  importAddress: Guid(fb2ee85ef64178e4e8e1c6d1cb8f8bee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_nor_4k.png using Guid(fb2ee85ef64178e4e8e1c6d1cb8f8bee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd64b2f38d4d31c90eca5b290d812f711') in 0.0790325 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4aa4095eec58b57e1800632aed53764 DependenciesID=2a6c502660eb12d5e45b0995d7be12d9 StaticDependenciesID=ec9c32b2dff6c619faf5783f38ce09f4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.903534 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_disp_4k.png
+  importAddress: Guid(1f47f459d76b8ae48b10cb2d06034428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_disp_4k.png using Guid(1f47f459d76b8ae48b10cb2d06034428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd6db164fe91bf07d6e06026934277771') in 0.0189334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0de0d8615a9338f518757644e9aed176 DependenciesID=f55bbac73071777f00b985c3a49b2b2c StaticDependenciesID=0161396b8ba0d5f0fc5d76b6eb0f668f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.858212 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/plywood/plywood_diff_4k.png
+  importAddress: Guid(768dfb3fceadf024a946ea8b1c9db008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/plywood/plywood_diff_4k.png using Guid(768dfb3fceadf024a946ea8b1c9db008) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '01692ab650413830c56e91420519b202') in 0.0065311 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c2326cb03e1c65fba8d892608e86a4d DependenciesID=7e1ceede5ba2d8903794ce5125870a41 StaticDependenciesID=794dd98b5110fcfe7353ce31ec924124 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/plywood/plywood_ao_4k.png
+  importAddress: Guid(94b4bab11fac6ce4c94a04f73f131041) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/plywood/plywood_ao_4k.png using Guid(94b4bab11fac6ce4c94a04f73f131041) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '340257ff9caf4137eabf6b95c8dc5cc2') in 0.0070568 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e5aedeb548d52703016db8088009e32 DependenciesID=bebdb087ee8b752d2c8f930eb3b64231 StaticDependenciesID=583792f93127fe7b7e7d71fd3a9f7afd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.699754 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_nor_4k.png
+  importAddress: Guid(fb2ee85ef64178e4e8e1c6d1cb8f8bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_nor_4k.png using Guid(fb2ee85ef64178e4e8e1c6d1cb8f8bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5840da8246141dfd3ec129a321b4660f') in 0.0084416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14f1878141a82d1081452d5d6c0e2c40 DependenciesID=3c5a664cd9ddb4634e9b3ee6a1c5d91e StaticDependenciesID=6da859598c43f827e730415ffefcfabb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.904483 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_disp_4k.png
+  importAddress: Guid(1f47f459d76b8ae48b10cb2d06034428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_disp_4k.png using Guid(1f47f459d76b8ae48b10cb2d06034428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aeb488fe1dfb1c4146fcb1179d87d058') in 0.007759 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8c3a8f8d32852362c361987f060eb0e DependenciesID=dacf442de07231894321d9bfbce31de3 StaticDependenciesID=6609dbf6b88079ce1c2eea8eb17ee37b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.393125 seconds.
+  path: Assets/Textures/dead_tree_trunk_diff_4k.jpg
+  importAddress: Guid(5f05695475d77f2498c05839d7000acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/dead_tree_trunk_diff_4k.jpg using Guid(5f05695475d77f2498c05839d7000acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7430013e7ee745d9417a0efebce04a2d') in 0.0097083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ecca136e05fef5b100dbda1d104e3211 DependenciesID=c6beeaf2b2aa5f50d455d78611a02fd3 StaticDependenciesID=4dfc3f6aec908a6054130f20c4ec8395 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.225885 seconds.
+  path: Assets/Textures/rock_moss_set_02_diff_4k.jpg
+  importAddress: Guid(bb7a88d4d3b234c4298d7505ea5a62cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/rock_moss_set_02_diff_4k.jpg using Guid(bb7a88d4d3b234c4298d7505ea5a62cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bfe2c265cc17f44881c224bd1f1d9137') in 0.0085878 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=861b7f17a3ec0bcf1b7c3a26d392f7da DependenciesID=4b212f83d8a2e1fb69ea8b8e67b8dcb6 StaticDependenciesID=8183d7727d8105f49bb1e3cc6c038ce9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.819708 seconds.
+  path: Assets/materials/rusty_metal_sheet_4k/textures/rusty_metal_sheet_nor_gl_4k.exr
+  importAddress: Guid(7aeece2e40ff8bf42b37aeac8d290618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/rusty_metal_sheet_4k/textures/rusty_metal_sheet_nor_gl_4k.exr using Guid(7aeece2e40ff8bf42b37aeac8d290618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8a3be507de4a6d881ddfd77f484af468') in 0.0097247 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9596f18beef9eeac7c4a5ee89cf83a26 DependenciesID=1276a9b7f31b52ca6731d67715983320 StaticDependenciesID=02eb14054c01e45e9b26a5cd43f461c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.122479 seconds.
+  path: Assets/materials/rusty_metal_sheet_4k/textures/rusty_metal_sheet_rough_4k.exr
+  importAddress: Guid(5460b87e044861c42bae960a33411e12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/rusty_metal_sheet_4k/textures/rusty_metal_sheet_rough_4k.exr using Guid(5460b87e044861c42bae960a33411e12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e38d8eff49b62eb94865ad4c3268b662') in 0.0141182 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1523e1dcad93a141b9e35e1404a81d83 DependenciesID=42953bf8336e19ee20299865bc4afd09 StaticDependenciesID=7dc0045f8d8a1cde6045715f5e48da3c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/materials/rock_wall_02_4k.blend/textures/rock_wall_02_disp_4k.png
+  importAddress: Guid(4bf91c76a6924fd439e82c9e6c44189b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/rock_wall_02_4k.blend/textures/rock_wall_02_disp_4k.png using Guid(4bf91c76a6924fd439e82c9e6c44189b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '96a4d984af83b34e13a557be8c31cbbd') in 0.0120258 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37df0d699b0e2ea246dd4a8462a12444 DependenciesID=fa10fbcc824f346a85a6a9799a8902e4 StaticDependenciesID=0d998ebab19594026cdb779a22439586 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/materials/rock_wall_02_4k.blend/textures/rock_wall_02_nor_gl_4k.exr
+  importAddress: Guid(bb427a3552a87b440a12517c9d29b7cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/rock_wall_02_4k.blend/textures/rock_wall_02_nor_gl_4k.exr using Guid(bb427a3552a87b440a12517c9d29b7cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '05eb6164bf0a367899751852c48876d1') in 0.0142422 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=003065ba6a1b373a31a6b73821e72e03 DependenciesID=1c9b9094d8eac3d0afae7d3881fbaf95 StaticDependenciesID=d89d916f3b4a2117acc4ec8246e396b9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/materials/rusty_metal_sheet_4k/textures/rusty_metal_sheet_disp_4k.png
+  importAddress: Guid(79bd009f7e15db64691cbbacf3e8fce6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/rusty_metal_sheet_4k/textures/rusty_metal_sheet_disp_4k.png using Guid(79bd009f7e15db64691cbbacf3e8fce6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4ef7f115e3c294e173e479680a7345ea') in 0.0148764 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=654b859b2a576de9d95af642cf3edde8 DependenciesID=7d2ab7b87f26e6bea383517b017adb04 StaticDependenciesID=a1173df63550a4a9f05e1433bb6fab1f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.572500 seconds.
+  path: Assets/audio 1/space_sound/交谈声推土声.mp3
+  importAddress: Guid(639dc702a97cfa348b0cd05d0fd7f594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio 1/space_sound/交谈声推土声.mp3 using Guid(639dc702a97cfa348b0cd05d0fd7f594) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8298d9e17fc1905839544646b7c18d03') in 0.0333338 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=178a920237631dabf1e4f5487d23388d DependenciesID=23efacb5d465864212aff0a38d3900db StaticDependenciesID=5c19d5f162991e7c4b7450f588350e8c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/audio 1/space_sound/手挖沙子.wav
+  importAddress: Guid(c90fafe8ca5708f4fbc918281a611416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio 1/space_sound/手挖沙子.wav using Guid(c90fafe8ca5708f4fbc918281a611416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3a269c73baa224fc4e6916981e313500') in 0.0059066 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65eb0268eaadcb5e28c98f73836e1eed DependenciesID=9abf530a0797d40afdea9789607adde5 StaticDependenciesID=a4ca8a5484256dab2f5b5ad4c4bbd8f8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.956054 seconds.
+  path: Assets/audio 1/tomb/3洞穴环境音.wav
+  importAddress: Guid(2b97b349fc8c2634796eb4e09b0544dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio 1/tomb/3洞穴环境音.wav using Guid(2b97b349fc8c2634796eb4e09b0544dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'be1a1363f0af874566e462aa779c49bf') in 0.0072756 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c79c26fb6b232848933202b606318a8 DependenciesID=dec274325d8620b2fad657cdcae41d33 StaticDependenciesID=a3f3de43c9001643638bdb16b07365d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/audio 1/tomb/8刷子声 长.wav
+  importAddress: Guid(1a087318f008a8641bb6ccec9e87bfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/audio 1/tomb/8刷子声 长.wav using Guid(1a087318f008a8641bb6ccec9e87bfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a064c7bb6a4b3720903b777fa4c378a9') in 0.0074826 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e0bacc3d77b09acd5d984c02f2d3d10 DependenciesID=80a55d886bcc651c17225f72dc8e518b StaticDependenciesID=d2ded7e7cc7cc8c15049a021cc3ae791 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

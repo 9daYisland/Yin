@@ -11,6 +11,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/tomb1.unity
     guid: 5104e6740f8e9704dbc8fabd653e146d
+  - enabled: 1
+    path: Assets/Scenes/WU1before.unity
+    guid: fb030ba624edbb04d8b053b9bc894980
+  - enabled: 1
+    path: Assets/Scenes/WU1.unity
+    guid: fdf9fee13f767de41b60e395a72398d4
+  - enabled: 1
+    path: Assets/Scenes/WU2.unity
+    guid: cf0efa7c73c2c42429a82a34e7e5e346
+  - enabled: 1
+    path: Assets/Scenes/shenmiao.unity
+    guid: 88778f5a972e83442bcf70bfb68ec8e1
+  - enabled: 1
+    path: Assets/Scenes/zoulang.unity
+    guid: 57840f0c652681545b9f98a98a02da27
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 870398cd796128041a60b43e9bd14d6d, type: 2}

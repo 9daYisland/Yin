@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GazeInteractable : MonoBehaviour
@@ -24,6 +25,7 @@ public class GazeInteractable : MonoBehaviour
     private bool isGazing;
     private bool hasCompleted;
     private float gazeTime;
+    public static event Action<GazeInteractable> AnyGazeEntered;
 
     public bool IsGazing => isGazing;
     public bool HasCompleted => hasCompleted;
@@ -66,6 +68,7 @@ public class GazeInteractable : MonoBehaviour
             return;
 
         isGazing = true;
+        AnyGazeEntered?.Invoke(this);
 
         if (logEvents)
             Debug.Log($"¿´µ½£º{gameObject.name}", this);

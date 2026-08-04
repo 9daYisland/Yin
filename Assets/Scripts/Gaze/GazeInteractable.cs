@@ -25,12 +25,12 @@ public class GazeInteractable : MonoBehaviour
     private bool isGazing;
     private bool hasCompleted;
     private float gazeTime;
-    public static event Action<GazeInteractable> AnyGazeEntered;
 
     public bool IsGazing => isGazing;
     public bool HasCompleted => hasCompleted;
     public float Progress =>
         gazeDuration <= 0f ? 1f : Mathf.Clamp01(gazeTime / gazeDuration);
+    public static event Action<GazeInteractable> AnyGazeEntered;
 
     private void Awake()
     {

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class IgnitableObject : MonoBehaviour
@@ -5,17 +6,26 @@ public class IgnitableObject : MonoBehaviour
     [Header("点燃后出现的对象")]
     [SerializeField] private GameObject[] fireObjects;
 
-
     [Header("点燃设置")]
     [SerializeField] private string torchTag = "Torch";
     [SerializeField] private bool canIgniteOnlyOnce = true;
 
-    private bool isIgnited;
-    public bool IsIgnited => isIgnited;
+    [Tooltip("游戏开始时是否允许点燃。当前流程建议关闭。")]
+    [SerializeField] private bool ignitionEnabledAtStart = false;
 
-    private void Start()
+    private bool isIgnited;
+    private bool ignitionEnabled;
+
+    public bool IsIgnited => isIgnited;
+    public bool IgnitionEnabled => ignitionEnabled;
+
+    public event Action<IgnitableObject> Ignited;
+
+    private void Awake()
     {
-        // 游戏开始时隐藏所有燃烧效果
+        ignitionEnabled = ignitionEnabledAtStart;
+
+
         foreach (GameObject fireObject in fireObjects)
         {
             if (fireObject != null)
@@ -32,6 +42,11 @@ public class IgnitableObject : MonoBehaviour
 
     private void TryIgnite(Collider other)
     {
+        if (!ignitionEnabled)
+        {
+            return;
+        }
+
         if (isIgnited && canIgniteOnlyOnce)
         {
             return;
@@ -45,8 +60,19 @@ public class IgnitableObject : MonoBehaviour
         Ignite();
     }
 
+    public void SetIgnitionEnabled(bool enabled)
+    {
+        ignitionEnabled = enabled;
+
+    }
+
     public void Ignite()
     {
+        if (!ignitionEnabled)
+        {
+            return;
+        }
+
         if (isIgnited && canIgniteOnlyOnce)
         {
             return;
@@ -54,7 +80,6 @@ public class IgnitableObject : MonoBehaviour
 
         isIgnited = true;
 
-        Debug.Log($"[IgnitableObject] {name} 已点燃。");
         foreach (GameObject fireObject in fireObjects)
         {
             if (fireObject != null)
@@ -63,5 +88,7 @@ public class IgnitableObject : MonoBehaviour
             }
         }
 
+
+        Ignited?.Invoke(this);
     }
 }

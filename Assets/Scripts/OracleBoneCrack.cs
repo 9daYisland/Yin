@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Inputs.Haptics;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
-
+using System;
 public class OracleBoneCrack : MonoBehaviour
 {
     [Header("模型")]
@@ -24,7 +24,7 @@ public class OracleBoneCrack : MonoBehaviour
 
     [SerializeField] private float hapticDuration = 0.06f;
     [SerializeField] private float hapticInterval = 0.15f;
-
+    public event Action HeatingStarted;
     private XRGrabInteractable grabInteractable;
 
     private Vector3 originalLocalPosition;
@@ -72,16 +72,22 @@ public class OracleBoneCrack : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.CompareTag("Fire"))
+        if (!other.CompareTag("Fire") || isCracked)
+        {
+            return;
+        }
+
+        if (isInsideFire)
         {
             return;
         }
 
         isInsideFire = true;
         heatingTime = 0f;
-        nextHapticTime = 0f;
 
-        Debug.Log("甲骨进入火焰");
+        HeatingStarted?.Invoke();
+
+        Debug.Log("[OracleBoneCrack] 甲骨开始加热。");
     }
 
     private void OnTriggerExit(Collider other)

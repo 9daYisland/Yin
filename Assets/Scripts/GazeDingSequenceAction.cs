@@ -37,6 +37,7 @@ public class GazeDingSequenceAction : GazeAction
     private bool waitingForAudio3End;
     private bool waitingForAudio4End;
     private bool sceneLoadStarted;
+    private bool audio2Finished;
 
     private void Awake()
     {
@@ -100,12 +101,15 @@ public class GazeDingSequenceAction : GazeAction
 
         waitingForDingTimelineEnd = false;
 
+        // 只有从这里开始，拿起甲骨才允许播放音频3。
+        audio2Finished = true;
+
         if (hintText != null)
             hintText.text = hintMessage;
 
         SetHintVisible(true);
 
-        Debug.Log("鼎的 Timeline 播放完成，显示拿取甲骨提示。", this);
+        Debug.Log("音频2播放完成，现在可以拿起甲骨。", this);
     }
 
     /// <summary>
@@ -113,6 +117,13 @@ public class GazeDingSequenceAction : GazeAction
     /// </summary>
     public void OnOracleBoneGrabbed()
     {
+        // 音频2还没结束，拿起甲骨不触发任何后续内容。
+        if (!audio2Finished)
+        {
+            Debug.Log("甲骨被提前拿起：音频2尚未播放完成。", this);
+            return;
+        }
+
         SetHintVisible(false);
 
         if (oracleBoneSequenceTriggered)
@@ -132,7 +143,7 @@ public class GazeDingSequenceAction : GazeAction
         waitingForAudio3End = true;
         PlayDirectorFromStart(audio3Director);
 
-        Debug.Log("拿起甲骨，开始播放音频3 Timeline。", this);
+        Debug.Log("拿起甲骨，开始播放音频3。", this);
     }
 
     private void OnAudio3Stopped(PlayableDirector director)

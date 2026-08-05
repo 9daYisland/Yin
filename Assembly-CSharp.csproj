@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{180F446B-11E4-6C18-ADAF-6564AEAB816A}</ProjectGuid>
+    <ProjectGuid>{9EDFAE0A-BE65-A0C7-E587-581AEFDCEA77}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,14 +61,19 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.4.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\NPCController.cs" />
     <Compile Include="Assets\Ian&apos;s Fire Pack Universal\Scripts\TileAnimation.cs" />
     <Compile Include="Assets\Scripts\FireCrackTrigger.cs" />
-    <Compile Include="Assets\Script\TimelineSceneLoader.cs" />
+    <Compile Include="Assets\Scripts\TitleDialoguePlayer.cs" />
+    <Compile Include="Assets\Scripts\GazeSceneIntroController.cs" />
     <Compile Include="Assets\fog\Demo Assets\INab Studio\Scripts\Highlighters\TestSceneManager.cs" />
+    <Compile Include="Assets\Scripts\WuoneManager.cs" />
     <Compile Include="Assets\Scripts\GazeBurn.cs" />
     <Compile Include="Assets\XR\Animated Hands\AnimateHandOnInput.cs" />
     <Compile Include="Assets\Ian&apos;s Fire Pack Universal\Scripts\LightFlicker.cs" />
+    <Compile Include="Assets\Scripts\SequenceManager.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeTarget.cs" />
+    <Compile Include="Assets\Scripts\Outline.cs" />
     <Compile Include="Assets\fog\Post Processing Assets\Better Fog\Core\Scripts\BetterFogRenderers.cs" />
     <Compile Include="Assets\Scripts\OracleBoneCrack.cs" />
     <Compile Include="Assets\fog\Demo Assets\INab Studio\Scripts\FloatingCoin.cs" />
@@ -78,8 +83,12 @@
     <Compile Include="Assets\Scripts\PickupInfoUI.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeAudioAction.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeAction.cs" />
+    <Compile Include="Assets\Scripts\GazeDingSequenceAction.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeDebugAction.cs" />
+    <Compile Include="Assets\Scripts\FireRitualSequence.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeUIManager.cs" />
+    <Compile Include="Assets\Scripts\TimelineSceneLoader.cs" />
+    <Compile Include="Assets\Scripts\SceneFlowManager(1).cs" />
     <Compile Include="Assets\Scripts\IgnitableObject.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Gaze\GazeInteractable.cs" />
@@ -1486,12 +1495,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Tripo3D.UnityBridge.Editor.csproj">
+      <Project>{6F599EC9-CC49-A6CB-503E-A4C4D9D16A44}</Project>
+      <Name>Tripo3D.UnityBridge.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{FF2C407F-F209-C32C-4372-CBFD8AA95D5D}</Project>
+      <Project>{62264883-07C6-7312-3348-37F3658F725E}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{233256FF-293D-494F-77FA-4A5FCDC6C32E}</Project>
+      <Project>{C2891D90-9477-9BDA-3695-211341DEA023}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>

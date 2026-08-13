@@ -1,0 +1,441 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.6f1 (0b051c2e5d54) revision 722204'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 32212 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490" at "2026-08-13T00:02:31.1225677Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-13T00:02:31Z
+
+COMMAND LINE ARGUMENTS:
+D:\unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/Yin
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+9633
+-licensingIpc
+LicenseClient-15490
+-force-d3d12
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Yin
+D:/Yin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [13408]  Target information:
+
+Player connection [13408]  * "[IP] 192.168.1.139 [Port] 0 [Flags] 2 [Guid] 3901378203 [EditorId] 3901378203 [Version] 1048832 [Id] WindowsEditor(7,9daY) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13408] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13408] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 20.52 ms, found 10 plugins.
+Initialize engine version: 6000.4.6f1 (0b051c2e5d54)
+[Subsystems] Discovering subsystems at path D:/unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Yin/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 Laptop GPU (ID=0x2d58)
+    Vendor:          NVIDIA
+    VRAM:            7891 MB
+    App VRAM Budget: 7123 MB
+    Driver:          32.0.15.9608
+Initialize mono
+Mono path[0] = 'D:/unity/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001570 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-15490"
+[Licensing::IpcConnector] LicenseClient-15490 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490-6000.4.6" at "2026-08-13T00:02:33.1096943Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 35024, path: "D:/unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              5cd6376d13214eddb4ee5c1c2574d553
+  Correlation Id:          cfff11d5d07d6708b66774ab2c5d5809
+  External correlation Id: 6372188124161095651
+  Machine Id:              DJWBFtPZt+einrVuex0hynKXsRc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-15490-6000.4.6" (connect: 0.01s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-15490-6000.4.6-notifications" at "2026-08-13T00:02:33.119728Z"
+[Licensing::Module] Licensing Background thread has ended after 2.00s
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 876ms
+	BeginReloadAssembly (201ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (200ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (189ms)
+	FinalizeReload (341ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 5773964460127-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 6.49 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 6.82 ms, found 10 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.083 seconds
+Domain Reload Profiling: 1959ms
+	BeginReloadAssembly (193ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (565ms)
+		LoadAssemblies (446ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (153ms)
+			BuildScriptInfoCaches (48ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1084ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (539ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 8.72 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7707 unused Assets / (6.0 MB). Loaded Objects now: 8553.
+Memory consumption went from 186.1 MB to 180.1 MB.
+Total: 11.560600 ms (FindLiveObjects: 1.061100 ms CreateObjectMapping: 0.808900 ms MarkObjects: 5.443200 ms  DeleteObjects: 4.245000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 192647.810649 seconds.
+  path: Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Mud_AORD.png
+  importAddress: Guid(abc00000000010227347377496998854) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/HIVEMIND/CaveOfHiddenTomb/HDRP (Default)/Art/AllTextures1K/T_Mud_AORD.png using Guid(abc00000000010227347377496998854) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '698dfc8a4aebb77825dff564e0150f51') in 0.1090075 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4eeb50c90d1a303fe44566539eeaa185 DependenciesID=4457f7885b18c8e755dd3369fe1daf94 StaticDependenciesID=0af812d1b1327dada4341ef82944a7c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/animation/fuhao/fuhao/fuhao_roughness.JPEG
+  importAddress: Guid(bf6bf8350ed1b374bb978844c88f04be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/fuhao/fuhao/fuhao_roughness.JPEG using Guid(bf6bf8350ed1b374bb978844c88f04be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'be5ffde1ca5edd84ffbebdad24385b7c') in 0.0116309 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc9235b735e0d14c4244337c6b8d8dd7 DependenciesID=7c315a18336de1cd73e7da7c79d217e8 StaticDependenciesID=539d2a6f307664a04cbdc268a0331ef0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/animation/npc3/npc4/tripo_image_a43f9dbf-a752-485a-b94e-0959a035debc_0_0.jpg
+  importAddress: Guid(3a3b035a07e98ec4e915bbec47cb6f88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/npc3/npc4/tripo_image_a43f9dbf-a752-485a-b94e-0959a035debc_0_0.jpg using Guid(3a3b035a07e98ec4e915bbec47cb6f88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '75b070fa08c9978d71af31d3195da564') in 0.0115429 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d14ddfa6a5063ec797f2cc6b884ea8ac DependenciesID=caecc65ff41724dca0abc2104da1adb8 StaticDependenciesID=7a5211a4518a15da4d0aa0c989bf6b05 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ian's Fire Pack Universal/_URP Specific/Materials/Particles/TorchFlameURP.mat
+  importAddress: Guid(1b9aa30bbb4604f079e8effaa4f0c742) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Ian's Fire Pack Universal/_URP Specific/Materials/Particles/TorchFlameURP.mat using Guid(1b9aa30bbb4604f079e8effaa4f0c742) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '050d4d6476897788d53491e9fa7b3351') in 0.0288829 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc8e35642cc16692fb6b79739f76c8db DependenciesID=dd3fd84d382ed2bd3eec54b100770c18 StaticDependenciesID=2fc987191ce47f42512cd2ffb261ecfc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_materials/brown_planks_04.mat
+  importAddress: Guid(b1906119684821e4d8af446f6dec6b60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_materials/brown_planks_04.mat using Guid(b1906119684821e4d8af446f6dec6b60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bc57aa8ed6993a3e8b5fcef599400bfa') in 0.0479666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df0870c17fd61d58782cff55c6d8af25 DependenciesID=84a8ce2a6b03f2115d9e9250e8b381b2 StaticDependenciesID=07cb4e10b8f8903d97d57d3edd2dffa7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/animation/6
+  importAddress: Guid(9b5d1a8b7c79b0f4fba231be3f1c50a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/6 using Guid(9b5d1a8b7c79b0f4fba231be3f1c50a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '19a0c06aa8542232c42c47d0e20ecef8') in 0.0039136 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc70390a68c3f54a5a8a1ac772a44de4 DependenciesID=51307d9af6fe4f02460dd0c63a532bc7 StaticDependenciesID=b4ff6a53a71fc00e08f2e2d245a4e6dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/animation/npc3/Breathing Idle (1).fbx
+  importAddress: Guid(7ec0b553f89404843aac52a637ed6882) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/npc3/Breathing Idle (1).fbx using Guid(7ec0b553f89404843aac52a637ed6882) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f048e796c62c21e86edbaac32345b3d3') in 0.0517638 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52763b1db753575d0aaf50daadace537 DependenciesID=dc7948a809501289eb68dd2af641597d StaticDependenciesID=fe214936e390598a91906b25429d4dee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 77
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/animation/fuhao/无标题.fbx
+  importAddress: Guid(de89d4deb31d318428834fbc1b9769bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/fuhao/无标题.fbx using Guid(de89d4deb31d318428834fbc1b9769bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '822a64cdaa1c26d0523f2482d73cefac') in 0.011236 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=676c730d980dc0ccf2c3b5a80fb4dd9b DependenciesID=d8dda0f3d7c5517440847a150d2d4566 StaticDependenciesID=ac8fb198ba1fb291456ce3f93136b3fe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/animation/6/Standing Idle.fbx
+  importAddress: Guid(1bceb725414a1794aa9f3cee91f4b374) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/6/Standing Idle.fbx using Guid(1bceb725414a1794aa9f3cee91f4b374) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d8b5e8d292fdb7c2d40d673a79e8156') in 0.0135059 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15a4b86631999d5725bbeb4079ee7399 DependenciesID=966f023bf12985bd98a174f25508a322 StaticDependenciesID=bf3eb0dd2ea1458437176f8812d86305 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 77
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/materials/Meshy_AI_Ritual_bronze_ding_0703085930_texture_roughness.mat
+  importAddress: Guid(c7a984a3b08898d4c8b96695468c245f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/Meshy_AI_Ritual_bronze_ding_0703085930_texture_roughness.mat using Guid(c7a984a3b08898d4c8b96695468c245f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '073b3dc87ab39664b899265286e9b907') in 0.0093794 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b669ffab56f719cb9bbfb6690c5d7d71 DependenciesID=1edb4b35267bfba0f3c43a14cb141790 StaticDependenciesID=3e595b9b8de56eae7a49f8a49b29d4aa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/mesh/未烧裂甲骨/Meshy_AI_Turtle_shell_fragment_0801173027_texture_fbx/Meshy_AI_Turtle_shell_fragment_0801173027_texture.png
+  importAddress: Guid(e9dcd5fe487872041a7149a8b91ec501) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/mesh/未烧裂甲骨/Meshy_AI_Turtle_shell_fragment_0801173027_texture_fbx/Meshy_AI_Turtle_shell_fragment_0801173027_texture.png using Guid(e9dcd5fe487872041a7149a8b91ec501) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd848c28c880707d3b437ebf63473e7ec') in 0.0100052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abd9f1b1a605d0598357091934c70374 DependenciesID=af13a79c8efc3521c812cb3fb8ee3595 StaticDependenciesID=2a2f3d45155fbe91dcf851bf63a1c256 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_disp_4k.png
+  importAddress: Guid(1f47f459d76b8ae48b10cb2d06034428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/materials/TextureHaven/wood_4k/wood_4k_textures/brown_planks_04/brown_planks_04_disp_4k.png using Guid(1f47f459d76b8ae48b10cb2d06034428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5d4972e2a20bd0b090485ecc5e3cd7bf') in 0.0269974 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19863a0a453a9f79cacb0962128c21e7 DependenciesID=645df2bcd97fe78b88edf6251e174ea0 StaticDependenciesID=4143171d2c77f7d898b0d830690f76f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/animation/fuhao/fuhao
+  importAddress: Guid(ed3b18efbf2232e4880ee9dde6439e0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/fuhao/fuhao using Guid(ed3b18efbf2232e4880ee9dde6439e0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4cc6caa26dc6c8cb6a834291fd839e24') in 0.0037248 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f015efee17e05342c41e7e5b3efcd0ca DependenciesID=accc3127a54c529111e3bf56c5618e18 StaticDependenciesID=abf0d947fbb83e8020f15be03a1cabd8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/animation/npc3/npc4/tripo_node_b8b05d95-8c50-4acf-9edd-d71d0ec9cc2b_Normal_Bake.jpg
+  importAddress: Guid(10f1040f1011e504589afccf6fbeea49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/npc3/npc4/tripo_node_b8b05d95-8c50-4acf-9edd-d71d0ec9cc2b_Normal_Bake.jpg using Guid(10f1040f1011e504589afccf6fbeea49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '660354c66f2d4b7f17e9622ffc16e637') in 0.0082186 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7ccf02fff02eb95930e38a6083296a5 DependenciesID=c33db17783b7fbf2e0cbad76900dfe41 StaticDependenciesID=714fdc6db51bc8c370094358a6ab1c09 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/fog/Demo Assets/Unity Companion License/Particle Pack/Textures/Effects/LargeFlame02.tif
+  importAddress: Guid(01dc1c1c99bf4984ca35c1591d3eeb54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/fog/Demo Assets/Unity Companion License/Particle Pack/Textures/Effects/LargeFlame02.tif using Guid(01dc1c1c99bf4984ca35c1591d3eeb54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5b813747c328a9b62bb5341e40386873') in 0.0193546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d632e50627f363ebff6dc90247cab3fd DependenciesID=2644f95a7426995525b1630b977d049a StaticDependenciesID=eb12f5c5dd00b85e9f716be4aa020fdc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/animation/6/texture/tripo_node_6cf37a16-351b-403a-b6b5-30fb8ebc4ec3_Normal_Bake.jpg
+  importAddress: Guid(5a35ad12d31c99842aa05cdd43bdad03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/6/texture/tripo_node_6cf37a16-351b-403a-b6b5-30fb8ebc4ec3_Normal_Bake.jpg using Guid(5a35ad12d31c99842aa05cdd43bdad03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2648c6309fa0b7fa007899ee85f6bda7') in 0.0092755 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11fc6c22b82955dd368784f21b7570af DependenciesID=1a36865da9aa39482bafe8681eaf777b StaticDependenciesID=56caa94e0c305c5456743dad6760dd4e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/animation/npc2/texture/tripo_node_7b7eded6-b3a5-4f2f-81e9-1e86dc96cad4_Normal_Bake.jpg
+  importAddress: Guid(ff15dae35fe00704283958b689803fad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/npc2/texture/tripo_node_7b7eded6-b3a5-4f2f-81e9-1e86dc96cad4_Normal_Bake.jpg using Guid(ff15dae35fe00704283958b689803fad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cdd70b56b2624ac3d516d86b819d9954') in 0.0144607 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=078bbd9264ed6d799622334f8112fad0 DependenciesID=dbfff0603058e93cabdb16a996538894 StaticDependenciesID=ad81269d8e7bcaf49b20b81abd18dd5d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/青铜器.fbx
+  importAddress: Guid(5023915188fc3fd4d9294d5d4e6ce5fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Resources/青铜器.fbx using Guid(5023915188fc3fd4d9294d5d4e6ce5fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5f2cca40ce44b411f0c44f9473e1481c') in 0.0516398 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a1cff742fe16c2cd020ec8a145519a2 DependenciesID=294530113c3b31bde69649ace1f49154 StaticDependenciesID=4ca60986deb9772299ca50b501f8b909 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BefourStudios/AsianDynastyEnvironment/Art/Textures/T_TreeBark_Normal.png
+  importAddress: Guid(abc00000000008435835078370501336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BefourStudios/AsianDynastyEnvironment/Art/Textures/T_TreeBark_Normal.png using Guid(abc00000000008435835078370501336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a1bf281e0e8cb589151ee95b9e728b04') in 0.0092357 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1543adeb93f745d1ab4016b8df965cc DependenciesID=be46df16e2d3a0d999ca4d1feebbe2ff StaticDependenciesID=2ff5a97a63c96c98da70544f75289bc5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/animation/zhenren/qingtong/textures
+  importAddress: Guid(f709ed04458b2f342b0b503d58b15470) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/zhenren/qingtong/textures using Guid(f709ed04458b2f342b0b503d58b15470) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f45c74bba50a11f97c003eb82c8dcc3') in 0.0169993 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=926b117e5e5ae3a663943097e0d14f82 DependenciesID=58133eba596e01e9f4031063dd535a20 StaticDependenciesID=303c65ef99bd4f654101d496ec35eaf4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ian's Fire Pack Universal/Scripts/LightFlicker.cs
+  importAddress: Guid(af5d4a9da84f6475893ff9d9894d4a4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Ian's Fire Pack Universal/Scripts/LightFlicker.cs using Guid(af5d4a9da84f6475893ff9d9894d4a4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '000fba74a436e67430b3fc5a74c60a38') in 0.0044091 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ad24a37d072b643d0fd2a58baf8a951 DependenciesID=e3a644ae23eb0d620a59d94176f5992a StaticDependenciesID=fb7aa2bb49f748085c54c324306fd749 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/animation/fuhao/fuhao/fuhao_metallic.JPEG
+  importAddress: Guid(57a313eb96340e14193c7f0dcfab4641) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/fuhao/fuhao/fuhao_metallic.JPEG using Guid(57a313eb96340e14193c7f0dcfab4641) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '584e15a6353f289c29b588c882956050') in 0.0081324 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22bdd409c09647a4e63564211fb29aea DependenciesID=278d79658b5ccd2f868812be8407974b StaticDependenciesID=62a7c47fec06028f4bf4657a67bf4ca1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/animation/6/donghua.fbx
+  importAddress: Guid(f1afff391efa36f49b45147892eb7cef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/animation/6/donghua.fbx using Guid(f1afff391efa36f49b45147892eb7cef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8f755030c639b2527684a13bc795564b') in 0.0134261 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=70134a490918f2309c2aea8c71bec1d2 DependenciesID=ec4c5bf4746ed793865456ecbbff6bfe StaticDependenciesID=7926597cb0935c52025f67b6f0ee1121 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

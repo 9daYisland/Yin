@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Tripo3D.UnityBridge.Editor</RootNamespace>
-    <ProjectGuid>{AA27D4BD-257A-A44C-0019-CFB102FD284A}</ProjectGuid>
+    <ProjectGuid>{6F599EC9-CC49-A6CB-503E-A4C4D9D16A44}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Tripo3D.UnityBridge.Editor</AssemblyName>

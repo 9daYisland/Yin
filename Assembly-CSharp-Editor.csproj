@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DA22DB01-4714-D990-ED6C-7A0EBDB4C3FA}</ProjectGuid>
+    <ProjectGuid>{C9D7F215-08B2-9AF6-2EFF-A0510646BD6A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -651,10 +651,6 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>D:\网站下载\111\Tripo3d_Unity_Bridge-latest\Tripo3d_Unity_Bridge\Editor\Plugins\websocket-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
@@ -1524,19 +1520,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{FE98C4F7-4B8B-9617-61D3-56C83DD0074E}</Project>
+      <Project>{7BAC8E4B-63DD-9382-7DFC-02D0E636A17B}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="Tripo3D.UnityBridge.Editor.csproj">
-      <Project>{AA27D4BD-257A-A44C-0019-CFB102FD284A}</Project>
-      <Name>Tripo3D.UnityBridge.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{40C59033-3C5A-0596-6117-E7AB1730E3E6}</Project>
+      <Project>{190531EF-2264-CD91-776F-8362AA801C66}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj">
-      <Project>{61C1EDCF-3517-B14A-2359-085E730B011F}</Project>
+      <Project>{01481067-D8FB-CB94-4C13-5411E6EC89D4}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor</Name>
     </ProjectReference>
   </ItemGroup>
